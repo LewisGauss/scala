@@ -13,7 +13,7 @@ class playerActor extends Actor{
   }
   def receive = {
     case startGame => {
-      
+      println("START GAME");
     }
     case playerTurn => {
       myTurn = true;
