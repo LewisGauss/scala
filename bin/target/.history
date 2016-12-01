@@ -4,3 +4,7 @@ reload
 compile
 eclipse
 run
+reload
+compile
+eclipse
+exit

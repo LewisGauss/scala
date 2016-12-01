@@ -4,7 +4,7 @@
 		module="myapp_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161128005450"
+		publication="20161201232452"
 	>
 		<description>
 		myapp
@@ -32,9 +32,9 @@
 		<artifact name="myapp_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.scalamacros" name="paradise_2.11.7" rev="2.1.0" conf="plugin->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scalamacros" name="paradise_2.11.8" rev="2.1.0" conf="plugin->default(compile)"/>
 		<dependency org="org.scalafx" name="scalafx_2.11" rev="8.0.40-R8" conf="compile->default(compile)"/>
 		<dependency org="org.scalafx" name="scalafxml-core-sfx8_2.11" rev="0.2.2" conf="compile->default(compile)"/>
 		<dependency org="com.github.nscala-time" name="nscala-time_2.11" rev="2.12.0" conf="compile->default(compile)"/>

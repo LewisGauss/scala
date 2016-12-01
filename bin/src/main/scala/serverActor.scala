@@ -4,18 +4,18 @@ class serverActor extends Actor{
   import serverActor._;
   import playerActor._;
   
-  var activeRoom = null;
+  var activeRoom:Room = null;
   
   def active : Receive = {
     case Connect(playerName : String, ref : ActorRef) => {
-       sender ! registrationFail
+       sender ! RegistrationFail
     }
-    case rollDice => {
+    case RollDice => {
        activeRoom.play;
        for(p <- activeRoom.playerList){
-         p.ref ! move
+         p.ref ! Move()
        }
-       activeRoom.currentTurnPlayer.ref ! playerTurn
+       activeRoom.currentTurnPlayer.ref ! PlayerTurn
        
     }
   }
@@ -23,12 +23,15 @@ class serverActor extends Actor{
     case Connect(playerName : String, ref : ActorRef) =>{
        val room :Room = RoomHandler.getRoom()
        room.addPlayer(player(playerName,ref))
-       sender ! registrationSuccess(room)
+       
+       println("ADDED PLAYER "+playerName);
+       println("ROOM : "+room);
+       sender ! RegistrationSuccess(room)
     }
-    case ready(room : Room) => {
+    case Ready(room : Room) => {
       if(room.start){
         for(p <- room.playerList){
-          p.ref ! start
+          p.ref ! StartGame
         }
       }
       activeRoom = room;
@@ -39,6 +42,6 @@ class serverActor extends Actor{
 
 object serverActor{
   case class Connect(playerName : String, ref : ActorRef)
-  case class ready(room : Room);
-  case class rollDice(playerId : Int);
+  case class Ready(room : Room);
+  case class RollDice(playerId : Int);
 }

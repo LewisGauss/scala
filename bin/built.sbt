@@ -2,7 +2,7 @@ name := "myapp"
 
 version := "1.0"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
 offline := true
 resolvers += "Local Maven Repository" at "file:///"+Path.userHome+ "/.ivy2/cache"

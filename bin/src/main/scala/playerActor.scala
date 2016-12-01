@@ -12,17 +12,17 @@ class playerActor extends Actor{
     
   }
   def receive = {
-    case startGame => {
+    case StartGame => {
       println("START GAME");
     }
-    case playerTurn => {
+    case PlayerTurn => {
       myTurn = true;
       println("MY TURN");
     }
     case Move() => {
       println("MOVING THE PLAYERS");
     }
-    case registrationSuccess(room : Room) => {
+    case RegistrationSuccess(room : Room) => {
       this.currentRoom = room;
       println("ROOM : " + room)
     }
@@ -30,10 +30,10 @@ class playerActor extends Actor{
 }
 
 object playerActor {
-  case object startGame;
-  case object playerTurn;
-  case class registrationSuccess(room : Room);
-  case object registrationFail;
-  case class Move();
+  case object StartGame
+  case object PlayerTurn
+  case class RegistrationSuccess(room : Room)
+  case object RegistrationFail
+  case class Move()
  
 }

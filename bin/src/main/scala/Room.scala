@@ -12,7 +12,7 @@ class Room{
     var playersReady = 0;
     for( player <- playerList){
       if(player.isReady){
-        playersReady++
+        playersReady +=1 
       }
     }
     
@@ -24,6 +24,6 @@ class Room{
   }
   
   def play = {
-    turnCounter++;  
+    turnCounter+=1;  
   }
 }

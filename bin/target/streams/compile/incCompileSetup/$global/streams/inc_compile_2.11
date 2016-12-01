@@ -7,12 +7,12 @@ output directories:
 output dir -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes
 compile options:
 1 items
-0 -> -Xplugin:C:\Users\Mint\.ivy2\cache\org.scalamacros\paradise_2.11.7\jars\paradise_2.11.7-2.1.0.jar
+0 -> -Xplugin:C:\Users\Mint\.ivy2\cache\org.scalamacros\paradise_2.11.8\jars\paradise_2.11.8-2.1.0.jar
 javac options:
 0 items
 compiler version:
 1 items
-0 -> 2.11.7
+0 -> 2.11.8
 compile order:
 1 items
 0 -> Mixed
@@ -20,18 +20,68 @@ name hashing:
 1 items
 0 -> true
 products:
-5 items
+35 items
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Application$.class
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Application$delayedInit$body.class
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Application.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\clientApplication$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\clientApplication$delayedInit$body.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\clientApplication.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\player$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\player.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$$anonfun$receive$1.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$Move$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$Move.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$playerTurn$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$registrationFail$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$registrationSuccess$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$registrationSuccess.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$startGame$.class
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Room$$anonfun$start$1.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Room.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\RoomHandler$$anonfun$getRoom$1.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\RoomHandler$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\RoomHandler.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$$anonfun$active$1$$anonfun$applyOrElse$1.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$$anonfun$active$1.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$$anonfun$receive$1$$anonfun$applyOrElse$2.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$$anonfun$receive$1.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$Connect$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$Connect.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$ready$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$ready.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$rollDice$.class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$rollDice.class
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor.class
 binary dependencies:
-4 items
+24 items
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar
-C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.14.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> C:\Users\Mint\.ivy2\cache\org.scalafx\scalafx_2.11\jars\scalafx_2.11-8.0.40-R8.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.14.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.14.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> C:\Program Files (x86)\Java\jre1.8.0_60\lib\ext\jfxrt.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> C:\Users\Mint\.ivy2\cache\org.scalafx\scalafx_2.11\jars\scalafx_2.11-8.0.40-R8.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> C:\Program Files (x86)\Java\jre1.8.0_60\lib\ext\jfxrt.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> C:\Users\Mint\.ivy2\cache\org.scalafx\scalafx_2.11\jars\scalafx_2.11-8.0.40-R8.jar
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.14.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\.ivy2\cache\org.scalafx\scalafx_2.11\jars\scalafx_2.11-8.0.40-R8.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -41,7 +91,17 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-0 items
+10 items
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -49,14 +109,44 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-5 items
+35 items
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> Application
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> Application$
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> Application$delayedInit$body
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> clientApplication
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> clientApplication$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> clientApplication$delayedInit$body
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> player
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> player$
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor$$anonfun$receive$1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor$Move
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor$Move$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor$playerTurn$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor$registrationFail$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor$registrationSuccess
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor$registrationSuccess$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor$startGame$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> Room
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> Room$$anonfun$start$1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> RoomHandler
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> RoomHandler$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> RoomHandler$$anonfun$getRoom$1
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$$anonfun$active$1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$$anonfun$active$1$$anonfun$applyOrElse$1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$$anonfun$receive$1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$$anonfun$receive$1$$anonfun$applyOrElse$2
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$Connect
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$Connect$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$ready
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$ready$
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$rollDice
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor$rollDice$
 used names:
-19 items
+312 items
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> <init>
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> Any
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> App
@@ -66,55 +156,405 @@ C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> Predef
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> Unit
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> println
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> !
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> <init>
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> Actor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> ActorRef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> ActorSystem
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> Any
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> App
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> Class
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> ClassTag
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> JFXApp
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> Move
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> Nothing
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> Object
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> Predef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> Props
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> ScalaActorRef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> String
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> T
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> Unit
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> _$7
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> actor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> actorOf
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> actorRef2Scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> akka
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> application
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> apply
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> clientActor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> clientApplication
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> materializeClassTag
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> package
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> playerActor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> playerTurn
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> qual$1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> qual$2
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> qual$3
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> scalafx
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> startGame
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> system
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> x$1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> x$2
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> x$3
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> x$4
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> x$5
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> x$6
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> &&
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> <init>
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> ==
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> A
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> AbstractFunction2
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> ActorRef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Any
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> AnyRef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Boolean
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> IndexOutOfBoundsException
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Int
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Iterator
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> None
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Nothing
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Object
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Predef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Product
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> ScalaRunTime
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Serializable
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Some
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> String
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> T
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> T0
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> T1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> T2
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> Tuple2
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> _hashCode
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> _toString
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> actor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> akka
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> asInstanceOf
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> eq
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> isInstanceOf
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> isReady
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> name
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> package
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> player
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> position
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> ref
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> runtime
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> toString
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> typedProductIterator
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> ||
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> &&
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> +
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> <init>
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> ==
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> A
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> A1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> AbstractFunction0
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> AbstractFunction1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> AbstractPartialFunction
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Actor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Any
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> AnyRef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> B1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Boolean
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Function1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> IndexOutOfBoundsException
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Int
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Iterator
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Move
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> None
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Nothing
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Object
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Predef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Product
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Room
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> ScalaRunTime
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Serializable
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Some
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> String
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> T
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> T0
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> Unit
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> _hashCode
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> _toString
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> actor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> akka
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> apply
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> asInstanceOf
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> currentRoom
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> currentRoom_=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> eq
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> isInstanceOf
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> isReady
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> myTurn
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> myTurn_=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> ne
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> package
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerActor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> playerTurn
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> println
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> registrationFail
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> registrationSuccess
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> room
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> runtime
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> serverActor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> startGame
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> toString
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> typedProductIterator
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> unchecked
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> ||
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> %
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> +
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> +=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> <init>
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> >=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> Any
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> AnyRef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> Boolean
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> Function1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> Int
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> Nothing
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> Object
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> ObservableBuffer
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> ObservableList
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> Room
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> T
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> U
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> Unit
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> collections
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> currentTurnPlayer
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> foreach
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> get
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> isReady
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> observableBuffer2ObservableList
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> p
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> player
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> playerList
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> playersReady
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> scalafx
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> size
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> start
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> turnCounter
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> turnCounter_=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> +=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> <=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> <init>
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> Any
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> AnyRef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> Boolean
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> Function1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> Int
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> Nothing
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> Object
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> ObservableBuffer
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> ObservableList
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> Room
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> RoomHandler
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> T
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> U
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> Unit
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> collections
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> foreach
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> getRoom
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> observableBuffer2ObservableList
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> player
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> playerList
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> room
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> rooms
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> scalafx
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> size
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> !
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> &&
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> <init>
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> ==
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> A
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> A1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> AbstractFunction1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> AbstractFunction2
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> AbstractPartialFunction
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Actor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> ActorContext
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> ActorRef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Any
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> AnyRef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> B1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Boolean
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Connect
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Function1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> IndexOutOfBoundsException
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Int
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Iterator
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Move
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> None
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Nothing
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Object
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> ObservableBuffer
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Predef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Product
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Receive
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Room
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> RoomHandler
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> ScalaActorRef
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> ScalaRunTime
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Serializable
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Some
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Statics
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> String
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> T
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> T0
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> T1
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> T2
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Tuple2
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> U
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> Unit
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> _hashCode
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> _toString
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> active
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> activeRoom
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> activeRoom_=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> actor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> actorRef2Scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> addPlayer
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> akka
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> apply
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> asInstanceOf
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> become
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> context
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> currentTurnPlayer
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> eq
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> finalizeHash
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> foreach
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> getRoom
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> isInstanceOf
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> mix
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> ne
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> p
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> package
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> play
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> player
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> playerActor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> playerId
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> playerList
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> playerName
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> playerTurn
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> ready
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> ref
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> registrationFail
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> registrationSuccess
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> rollDice
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> room
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> runtime
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> scala
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> self
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> sender
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> serverActor
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> start
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> startGame
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> toString
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> typedProductIterator
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> unchecked
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> ||
 product stamps:
-5 items
-C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Application$.class -> lastModified(1480515466945)
-C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Application$delayedInit$body.class -> lastModified(1480515466951)
-C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Application.class -> lastModified(1480515466755)
-C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor.class -> lastModified(1480515466954)
-C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor.class -> lastModified(1480515466957)
+35 items
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Application$.class -> lastModified(1480606162012)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Application$delayedInit$body.class -> lastModified(1480606162016)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Application.class -> lastModified(1480606161797)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\clientApplication$.class -> lastModified(1480606162091)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\clientApplication$delayedInit$body.class -> lastModified(1480606162093)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\clientApplication.class -> lastModified(1480606162081)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\player$.class -> lastModified(1480606162147)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\player.class -> lastModified(1480606162143)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$$anonfun$receive$1.class -> lastModified(1480606162168)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$.class -> lastModified(1480606162150)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$Move$.class -> lastModified(1480606162204)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$Move.class -> lastModified(1480606162180)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$playerTurn$.class -> lastModified(1480606162208)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$registrationFail$.class -> lastModified(1480606162212)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$registrationSuccess$.class -> lastModified(1480606162216)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$registrationSuccess.class -> lastModified(1480606162240)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor$startGame$.class -> lastModified(1480606162252)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\playerActor.class -> lastModified(1480606162162)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Room$$anonfun$start$1.class -> lastModified(1480606162032)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\Room.class -> lastModified(1480606162027)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\RoomHandler$$anonfun$getRoom$1.class -> lastModified(1480606162077)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\RoomHandler$.class -> lastModified(1480606162074)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\RoomHandler.class -> lastModified(1480606162065)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$$anonfun$active$1$$anonfun$applyOrElse$1.class -> lastModified(1480606162270)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$$anonfun$active$1.class -> lastModified(1480606162266)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$$anonfun$receive$1$$anonfun$applyOrElse$2.class -> lastModified(1480606162279)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$$anonfun$receive$1.class -> lastModified(1480606162276)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$.class -> lastModified(1480606162253)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$Connect$.class -> lastModified(1480606162299)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$Connect.class -> lastModified(1480606162307)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$ready$.class -> lastModified(1480606162315)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$ready.class -> lastModified(1480606162312)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$rollDice$.class -> lastModified(1480606162319)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor$rollDice.class -> lastModified(1480606162328)
+C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\serverActor.class -> lastModified(1480606162262)
 source stamps:
-3 items
+7 items
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> hash(2bb4372f4466f603af1228d85c6833daba8ea89a)
-C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> hash(d7b8aaf8f0039ba66a4faa0d1da4a47bd32fb2da)
-C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> hash(2734264247c3c6d5d4fff2e221b3b651624a9fe4)
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> hash(e73d2a643c3f835e82b5af94f943d51677597c2c)
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> hash(17180dfffc15ff79cf781adb7feb019eed81058b)
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> hash(ca64fd5dd300e11eb01317cc5c7a51fc6dfdfb8d)
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> hash(395a1f1ebbf484b0cdde2179d2fc04b65de4dbf7)
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> hash(fa667f4fc2efd3cbbfbba003392c9fa918dc93f3)
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> hash(d8b130a976cf53be35b1b5e8b71f007e31a9ee76)
 binary stamps:
-2 items
+5 items
+C:\Program Files (x86)\Java\jre1.8.0_60\lib\ext\jfxrt.jar -> lastModified(1445174093105)
 C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar -> lastModified(1445174088401)
-C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar -> lastModified(1435004218000)
+C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.14.jar -> lastModified(1479740469000)
+C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> lastModified(1457105192000)
+C:\Users\Mint\.ivy2\cache\org.scalafx\scalafx_2.11\jars\scalafx_2.11-8.0.40-R8.jar -> lastModified(1426650353000)
 class names:
-2 items
+5 items
+C:\Program Files (x86)\Java\jre1.8.0_60\lib\ext\jfxrt.jar -> javafx.collections.ObservableList
 C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar -> java.lang.Object
-C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar -> scala.App
+C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.14.jar -> akka.actor.Actor
+C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> scala.Serializable
+C:\Users\Mint\.ivy2\cache\org.scalafx\scalafx_2.11\jars\scalafx_2.11-8.0.40-R8.jar -> scalafx.collections.ObservableBuffer
 internal apis:
-3 items
+7 items
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwRFbZfwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAZc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdSBwt3QABm5vdGlmeXNxAH4ADBnGYSh0AAR3YWl0c3EAfgAMqSYMEXQADSRhc0luc3RhbmNlT2ZzcQB+AAy1WBRXdAAGZXF1YWxzc3EAfgAMZ50gnnQADGFzSW5zdGFuY2VPZnNxAH4ADBgf1zB0AA5leGVjdXRpb25TdGFydHNxAH4ADPdYS+h0AAxzeW5jaHJvbml6ZWRzcQB+AAwZ4C3VdAANJGlzSW5zdGFuY2VPZnNxAH4ADK9Pt4x0AARtYWluc3EAfgAMmbZpWHQACW5vdGlmeUFsbHNxAH4ADE9yZX50AAxpc0luc3RhbmNlT2ZzcQB+AAyt7y3idAACPT1zcQB+AAxI3Za1dAAFY2xvbmVzcQB+AAyfxVDUdAALQXBwbGljYXRpb25zcQB+AAzDFbJXdAAGJGluaXQkc3EAfgAMGZM7bHQACHRvU3RyaW5nc3EAfgAMxAXlwHQABGFyZ3NzcQB+AAyizODidAACIT1zcQB+AAwRBjUEdAAIZ2V0Q2xhc3NzcQB+AAxwWSBFdAACbmVzcQB+AAxJ/CXMdAACZXFzcQB+AAy6HS24dAALZGVsYXllZEluaXRzcQB+AAzDePPudAACIyNzcQB+AAyioN8qdAAIZmluYWxpemVzcQB+AAym5gfddAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBJeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ACl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAac2NhbGEuZGVwcmVjYXRlZE92ZXJyaWRpbmd0ABBzY2FsYS5kZXByZWNhdGVkc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ASUwACWluaGVyaXRlZHEAfgBJTAAHcGFyZW50c3EAfgBJeHEAfgBnc3EAfgBidXEAfgBEAAAAAHNxAH4AYnVxAH4ARAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ASnEAfgBTdXEAfgBUAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4AcXhwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBmdAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGZzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AItzcQB+AFYAcQB+AB91cQB+AFgAAAAAc3EAfgB+dAAEVW5pdHEAfgCEdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AcXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AW3QABVBsYWlucQB+AC9zcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AH9bAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGZzcQB+AH50AAVBcnJheXEAfgCEdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AH50AAZTdHJpbmdzcQB+AIJzcQB+AIV1cQB+AIgAAAADc3EAfgCKdAAEamF2YXNxAH4AinQABGxhbmdxAH4Aj3NxAH4AYnVxAH4ApgAAAARzcQB+AH50AANBcHBxAH4AhHNxAH4AfnQAC0RlbGF5ZWRJbml0cQB+AIRzcQB+AH50AAZPYmplY3RxAH4AqnNxAH4AfnQAA0FueXEAfgCEdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVi1mQbXdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAN0M6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQrtDcvRGb2A68SKNhcaDPauo6omg==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwRFbZfwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAZc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdSBwt3QABm5vdGlmeXNxAH4ADBnGYSh0AAR3YWl0c3EAfgAMqSYMEXQADSRhc0luc3RhbmNlT2ZzcQB+AAy1WBRXdAAGZXF1YWxzc3EAfgAMZ50gnnQADGFzSW5zdGFuY2VPZnNxAH4ADBgf1zB0AA5leGVjdXRpb25TdGFydHNxAH4ADPdYS+h0AAxzeW5jaHJvbml6ZWRzcQB+AAwZ4C3VdAANJGlzSW5zdGFuY2VPZnNxAH4ADK9Pt4x0AARtYWluc3EAfgAMmbZpWHQACW5vdGlmeUFsbHNxAH4ADE9yZX50AAxpc0luc3RhbmNlT2ZzcQB+AAyt7y3idAACPT1zcQB+AAxI3Za1dAAFY2xvbmVzcQB+AAyfxVDUdAALQXBwbGljYXRpb25zcQB+AAzDFbJXdAAGJGluaXQkc3EAfgAMGZM7bHQACHRvU3RyaW5nc3EAfgAMxAXlwHQABGFyZ3NzcQB+AAyizODidAACIT1zcQB+AAwRBjUEdAAIZ2V0Q2xhc3NzcQB+AAxwWSBFdAACbmVzcQB+AAxJ/CXMdAACZXFzcQB+AAy6HS24dAALZGVsYXllZEluaXRzcQB+AAzDePPudAACIyNzcQB+AAyioN8qdAAIZmluYWxpemVzcQB+AAym5gfddAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBJeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ACl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAac2NhbGEuZGVwcmVjYXRlZE92ZXJyaWRpbmd0ABBzY2FsYS5kZXByZWNhdGVkc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ASUwACWluaGVyaXRlZHEAfgBJTAAHcGFyZW50c3EAfgBJeHEAfgBnc3EAfgBidXEAfgBEAAAAAHNxAH4AYnVxAH4ARAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ASnEAfgBTdXEAfgBUAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4AcXhwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBmdAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGZzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AItzcQB+AFYAcQB+AB91cQB+AFgAAAAAc3EAfgB+dAAEVW5pdHEAfgCEdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AcXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AW3QABVBsYWlucQB+AC9zcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AH9bAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGZzcQB+AH50AAVBcnJheXEAfgCEdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AH50AAZTdHJpbmdzcQB+AIJzcQB+AIV1cQB+AIgAAAADc3EAfgCKdAAEamF2YXNxAH4AinQABGxhbmdxAH4Aj3NxAH4AYnVxAH4ApgAAAARzcQB+AH50AANBcHBxAH4AhHNxAH4AfnQAC0RlbGF5ZWRJbml0cQB+AIRzcQB+AH50AAZPYmplY3RxAH4AqnNxAH4AfnQAA0FueXEAfgCEdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVi7AOpqdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAN0M6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQrtDcvRGb2A68SKNhcaDPauo6omg==
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwTaZd7AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwMb1aEnQABm5vdGlmeXNxAH4ADGmPESF0AAR3YWl0c3EAfgAMNuNTn3QADSRhc0luc3RhbmNlT2ZzcQB+AAxwJyaZdAAGc3lzdGVtc3EAfgAM3P/ZEHQABmVxdWFsc3NxAH4ADAqWNWt0AAxhc0luc3RhbmNlT2ZzcQB+AAzu0nGodAAOZXhlY3V0aW9uU3RhcnRzcQB+AAxgzuZHdAAMc3luY2hyb25pemVkc3EAfgAMi6bqkHQADSRpc0luc3RhbmNlT2ZzcQB+AAwxE0EAdAAEbWFpbnNxAH4ADNj6PG90AAlub3RpZnlBbGxzcQB+AAz9xo5OdAAMaXNJbnN0YW5jZU9mc3EAfgAMGZ5etHQAAj09c3EAfgAMpPtOinQABWNsb25lc3EAfgAMNM4SyXQABiRpbml0JHNxAH4ADAYoXWN0AAh0b1N0cmluZ3NxAH4ADCGF6Qd0AARhcmdzc3EAfgAMdnPEAHQAAiE9c3EAfgAMfuZf2XQACGdldENsYXNzc3EAfgAMNOhYJHQAC2NsaWVudEFjdG9yc3EAfgAMx5eRt3QAAm5lc3EAfgAMwPh4inQAAmVxc3EAfgAMPHHoo3QAC2RlbGF5ZWRJbml0c3EAfgAMxtylg3QAAiMjc3EAfgAMkyNu4nQACGZpbmFsaXplc3EAfgAMFIkoxXQACGhhc2hDb2Rlc3EAfgAM7DYGT3QAEWNsaWVudEFwcGxpY2F0aW9uc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ATXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgBDdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBmc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE1MAAlpbmhlcml0ZWRxAH4ATUwAB3BhcmVudHNxAH4ATXhxAH4Aa3NxAH4AZnVxAH4ASAAAAABzcQB+AGZ1cQB+AEgAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AE5xAH4AV3VxAH4AWAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AHV4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AanQAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBqc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCPc3EAfgBaAHEAfgAhdXEAfgBcAAAAAHNxAH4AgnQABFVuaXRxAH4AiHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AHV4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AF90AAVQbGFpbnEAfgAvc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCDWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBqc3EAfgCCdAAFQXJyYXlxAH4AiHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCCdAAGU3RyaW5nc3EAfgCGc3EAfgCJdXEAfgCMAAAAA3NxAH4AjnQABGphdmFzcQB+AI50AARsYW5ncQB+AJNzcQB+AGZ1cQB+AKoAAAAEc3EAfgCCdAADQXBwcQB+AIhzcQB+AIJ0AAtEZWxheWVkSW5pdHEAfgCIc3EAfgCCdAAGT2JqZWN0cQB+AK5zcQB+AIJ0AANBbnlxAH4AiHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFYuwDqanVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADdDOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU5z0qZDw/g16Cta+U+UPVFndZfCw=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwpMoEMQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwmu3EtXQABm5vdGlmeXNxAH4ADEmML1d0AARuYW1lc3EAfgAMW6iiwnQABHdhaXRzcQB+AAxcadbFdAAOY29weSRkZWZhdWx0JDJzcQB+AAwyoUg7dAANJGFzSW5zdGFuY2VPZnNxAH4ADCZtjG10AAxwcm9kdWN0QXJpdHlzcQB+AAzxhpPtdAAGZXF1YWxzc3EAfgAMTwaXvnQADGFzSW5zdGFuY2VPZnNxAH4ADEWtUOF0AAxzeW5jaHJvbml6ZWRzcQB+AAxPp1BOdAANJGlzSW5zdGFuY2VPZnNxAH4ADAsTY3J0AANyZWZzcQB+AAyE9nAIdAAIY2FuRXF1YWxzcQB+AAzStimwdAANcHJvZHVjdFByZWZpeHNxAH4ADBKMx6t0AAlub3RpZnlBbGxzcQB+AAwm7ZWfdAAHaXNSZWFkeXNxAH4ADKdCgAl0AAxpc0luc3RhbmNlT2ZzcQB+AAxNHEgQdAAGPGluaXQ+c3EAfgAMVV8CiXQABnBsYXllcnNxAH4ADF7bgbx0AAI9PXNxAH4ADC1mkpV0AAVjbG9uZXNxAH4ADPZJtNZ0AAYkaW5pdCRzcQB+AAy4mm0UdAAEY29weXNxAH4ADN0guoR0AAhwb3NpdGlvbnNxAH4ADN9uCt50AAh0b1N0cmluZ3NxAH4ADC2VWDF0AAIhPXNxAH4ADIJ/ZNp0AAhnZXRDbGFzc3NxAH4ADDc5ApF0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADBSA4Th0AAJuZXNxAH4ADDD2xF90AAJlcXNxAH4ADIMu6xF0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAymh2+IdAACIyNzcQB+AAyC7RDxdAAIZmluYWxpemVzcQB+AAyxaw5LdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAwTeeWRdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ADF1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBbTAAJaW5oZXJpdGVkcQB+AFtMAAdwYXJlbnRzcQB+AFt4cQB+AHdzcQB+AHJ1cQB+AFYAAAAAc3EAfgBydXEAfgBWAAAAAHNxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AdnQADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AkHNxAH4Ag3EAfgCGc3EAfgCHc3EAfgCKdXEAfgCNAAAAA3NxAH4Aj3QABGphdmFzcQB+AI90AAJpb3EAfgCUc3EAfgCDdAAHUHJvZHVjdHEAfgCJc3EAfgCDdAAGRXF1YWxzcQB+AIlzcQB+AIN0AAZPYmplY3RzcQB+AIdzcQB+AIp1cQB+AI0AAAADc3EAfgCPcQB+AJpzcQB+AI90AARsYW5ncQB+AJRzcQB+AIN0AANBbnlxAH4AiXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFYuwDqanVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADdDOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUFxgN//wV/3nPeBrbf+sBnu2BBYs=
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwcbUbvAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hweoY5zXQABm5vdGlmeXNxAH4ADFQICWl0AAR3YWl0c3EAfgAMUS6bCXQADSRhc0luc3RhbmNlT2ZzcQB+AAweMv0IdAAGZXF1YWxzc3EAfgAMbf4iK3QADGFzSW5zdGFuY2VPZnNxAH4ADCdVmIt0AAxzeW5jaHJvbml6ZWRzcQB+AAylNnPudAANJGlzSW5zdGFuY2VPZnNxAH4ADOOLdkR0AAlub3RpZnlBbGxzcQB+AAzV6Nj2dAAMaXNJbnN0YW5jZU9mc3EAfgAM8u3gWXQABjxpbml0PnNxAH4ADHs6RQl0AAI9PXNxAH4ADKS0IXR0AAVjbG9uZXNxAH4ADJ1eRTF0AAtwbGF5ZXJBY3RvcnNxAH4ADM3zeR50AAh0b1N0cmluZ3NxAH4ADDY3ox50AAIhPXNxAH4ADFJ6AT90AAhnZXRDbGFzc3NxAH4ADKGNg8V0AAJuZXNxAH4ADGrM+yp0AAJlcXNxAH4ADJWfUj90AAIjI3NxAH4ADMoIurh0AAhmaW5hbGl6ZXNxAH4ADDH83c90AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AJ3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBYc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXXNxAH4AWHVxAH4APAAAAABzcQB+AFh1cQB+ADwAAAAAc3EAfgBYdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBcdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBcc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB1dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB2c3EAfgBpdAADQW55c3EAfgBtc3EAfgBwdXEAfgBzAAAAAnNxAH4AdXQABXNjYWxhcQB+AHx1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWLWZBtd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA3QzpcVXNlcnNcTWludFxEZXNrdG9wXHNidFxiaW5cdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFNe4qvjwA5umak+qDR2kpHvTL7La
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw7WFs+wAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBH1HErdAAEc2VsZnNxAH4ACzaoKKB0AAdjb250ZXh0dXEAfgAJAAAAOXNxAH4ACz2Q8j90AAZub3RpZnlzcQB+AAvHklrCdAAHdW5hcHBseXNxAH4ACw9cHMt0AAdSZWNlaXZlc3EAfgAL+D+nwnQABHdhaXRzcQB+AAt8jqz6dAAKcGxheWVyVHVybnNxAH4ACyjjyj10AA0kYXNJbnN0YW5jZU9mc3EAfgALC6n8fHQAB2NvbXBvc2VzcQB+AAshuAZqdAAQcmVnaXN0cmF0aW9uRmFpbHNxAH4AC2EsBM90AAxwcm9kdWN0QXJpdHlzcQB+AAvFx/c/dAAGZXF1YWxzc3EAfgAL0GkS9XQADGFzSW5zdGFuY2VPZnNxAH4ACz/g2T50AAxzeW5jaHJvbml6ZWRzcQB+AAsXHS1MdAANJGlzSW5zdGFuY2VPZnNxAH4AC4mnQCx0AA9jb25uZWN0VG9TZXJ2ZXJzcQB+AAv3xl6tdAAHYW5kVGhlbnNxAH4AC3q2XkR0AAdyZWNlaXZlc3EAfgALwJ2zYXQACnByZVJlc3RhcnRzcQB+AAuREfJJdAANYXJvdW5kUmVjZWl2ZXNxAH4ACzJ6sIl0AAhjYW5FcXVhbHNxAH4AC8kEAsB0AAtwb3N0UmVzdGFydHNxAH4AC6VuTGB0AAhwb3N0U3RvcHNxAH4AC+SB7/t0AA1wcm9kdWN0UHJlZml4c3EAfgALGvaIYHQACW5vdGlmeUFsbHNxAH4AC5te2Ex0AAdpc1JlYWR5c3EAfgALXpU1iHQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgAL/N8O0nQADGlzSW5zdGFuY2VPZnNxAH4AC67kqS10ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALbrzUh3QADmFyb3VuZFBvc3RTdG9wc3EAfgAL6RrvY3QABm15VHVybnNxAH4AC+Xd4d90AAY8aW5pdD5zcQB+AAusKe1idAAIcHJlU3RhcnRzcQB+AAsZ2aWTdAAETW92ZXNxAH4AC533yRZ0AAl1bmhhbmRsZWRzcQB+AAsJ0WLEdAALY3VycmVudFJvb21zcQB+AAtya+fmdAAFYXBwbHlzcQB+AAsMFqfzdAAJc3RhcnRHYW1lc3EAfgALQ2GwznQAAj09c3EAfgAL3sNWIHQABWNsb25lc3EAfgALwud1YnQAC3BsYXllckFjdG9yc3EAfgALL5Tj33QABiRpbml0JHNxAH4AC6bjVH90AARjb3B5c3EAfgAL1hNwSXQABnNlbmRlcnNxAH4AC36b2X50AAh0b1N0cmluZ3NxAH4ACzeav8Z0AAIhPXNxAH4AC9cg6kV0AAhnZXRDbGFzc3NxAH4AC9NWVYB0ABNyZWdpc3RyYXRpb25TdWNjZXNzc3EAfgALfDBEf3QADmNvcHkkZGVmYXVsdCQxc3EAfgALjor3rXQABHJvb21zcQB+AAsbn18HdAACbmVzcQB+AAvXPesqdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALETNqRXQAAmVxc3EAfgALKCZXNHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4AC/RM2SJ0AAIjI3NxAH4ACyrXkgd0AAhmaW5hbGl6ZXNxAH4ACyGR/tp0AA5wcm9kdWN0RWxlbWVudHNxAH4AC3KcEzt0AAhoYXNoQ29kZXNxAH4AC2On8Qp0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AI14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AX3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAA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
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwigcM6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwpF3IFnQABm5vdGlmeXNxAH4ADKcvnxp0ABFjdXJyZW50VHVyblBsYXllcnNxAH4ADGcJZBF0AAR3YWl0c3EAfgAMUnxa43QADSRhc0luc3RhbmNlT2ZzcQB+AAwl+cMldAAGZXF1YWxzc3EAfgAM054tIHQABHBsYXlzcQB+AAyNcYegdAAMYXNJbnN0YW5jZU9mc3EAfgAMJvOfEHQADHN5bmNocm9uaXplZHNxAH4ADJ5Qm+N0AA0kaXNJbnN0YW5jZU9mc3EAfgAMg4KQkHQAC3R1cm5Db3VudGVyc3EAfgAMOjRUonQACW5vdGlmeUFsbHNxAH4ADIu2o+Z0AAxpc0luc3RhbmNlT2ZzcQB+AAzJppQ/dAAGPGluaXQ+c3EAfgAMjFXnOXQAAj09c3EAfgAMcsePuHQABWNsb25lc3EAfgAM37IOhHQACWFkZFBsYXllcnNxAH4ADPry3Zl0AAh0b1N0cmluZ3NxAH4ADBJ9G9p0AAIhPXNxAH4ADHiEl1t0AAhnZXRDbGFzc3NxAH4ADLqUhOZ0AApwbGF5ZXJMaXN0c3EAfgAMaLMX1nQABXN0YXJ0c3EAfgAM/FuYlXQAAm5lc3EAfgAM/Po5EHQABFJvb21zcQB+AAyBrPi2dAACZXFzcQB+AAwsV9C3dAACIyNzcQB+AAxKYgIXdAAIZmluYWxpemVzcQB+AAwPAZbfdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBNeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ADt1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBNTAAJaW5oZXJpdGVkcQB+AE1MAAdwYXJlbnRzcQB+AE14cQB+AGlzcQB+AGR1cQB+AEgAAAAAc3EAfgBkdXEAfgBIAAAAAHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnNxAH4AdXQAA0FueXNxAH4AeXNxAH4AfHVxAH4AfwAAAAJzcQB+AIF0AAVzY2FsYXEAfgCIdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVi7AOpqdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAN0M6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ5Wh8eu/SEsM3eIXnS/AS2XeTb9w==
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw7hwgOQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwWWk+IXQABm5vdGlmeXNxAH4ADFB+hFJ0AAtSb29tSGFuZGxlcnNxAH4ADAWprDR0AAR3YWl0c3EAfgAMpkw7bHQADSRhc0luc3RhbmNlT2ZzcQB+AAyLSppXdAAGZXF1YWxzc3EAfgAMw4jHvHQADGFzSW5zdGFuY2VPZnNxAH4ADB89QOJ0AAxzeW5jaHJvbml6ZWRzcQB+AAynEpwadAANJGlzSW5zdGFuY2VPZnNxAH4ADFH6ost0AAlub3RpZnlBbGxzcQB+AAxDj9T5dAAFcm9vbXNzcQB+AAyYp3JLdAAHZ2V0Um9vbXNxAH4ADPd/+Y50AAxpc0luc3RhbmNlT2ZzcQB+AAxC7duddAACPT1zcQB+AAyXYEDQdAAFY2xvbmVzcQB+AAxMkMgydAAIdG9TdHJpbmdzcQB+AAzizdXTdAACIT1zcQB+AAw/0D+cdAAIZ2V0Q2xhc3NzcQB+AAxkoUoddAACbmVzcQB+AAxAO6agdAACZXFzcQB+AAzxKhibdAACIyNzcQB+AAxjTQ58dAAIZmluYWxpemVzcQB+AAwRb+B0dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ABF1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFpzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQ0wACWluaGVyaXRlZHEAfgBDTAAHcGFyZW50c3EAfgBDeHEAfgBfc3EAfgBadXEAfgA+AAAAAHNxAH4AWnVxAH4APgAAAABzcQB+AFp1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF50AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF5zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AHd0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHhzcQB+AGt0AANBbnlzcQB+AG9zcQB+AHJ1cQB+AHUAAAACc3EAfgB3dAAFc2NhbGFxAH4AfnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFYuwDqanVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADdDOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU+mZ/T8Lv08u/u6ADOSyfqRjck/M=
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwAmIedgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwg672jnQABm5vdGlmeXNxAH4ADI0hyJx0AAR3YWl0c3EAfgAMj1T2XnQADSRhc0luc3RhbmNlT2ZzcQB+AAw3ZAYIdAAGZXF1YWxzc3EAfgAMiwtt33QADGFzSW5zdGFuY2VPZnNxAH4ADGLRUfV0AAxzeW5jaHJvbml6ZWRzcQB+AAztKp/hdAANJGlzSW5zdGFuY2VPZnNxAH4ADOw+gAZ0AAlub3RpZnlBbGxzcQB+AAzUK1FddAAMaXNJbnN0YW5jZU9mc3EAfgAMtV12sXQABjxpbml0PnNxAH4ADPN0ryB0AAtzZXJ2ZXJBY3RvcnNxAH4ADGdBF6F0AAI9PXNxAH4ADBpXHSp0AAVjbG9uZXNxAH4ADPsHfnd0AAh0b1N0cmluZ3NxAH4ADA7t0zJ0AAIhPXNxAH4ADJAjo210AAhnZXRDbGFzc3NxAH4ADEQOiOR0AAJuZXNxAH4ADJIKIl90AAJlcXNxAH4ADDN1A3h0AAIjI3NxAH4ADHd43iF0AAhmaW5hbGl6ZXNxAH4ADGVoWoZ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AI3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBYc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXXNxAH4AWHVxAH4APAAAAABzcQB+AFh1cQB+ADwAAAAAc3EAfgBYdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBcdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBcc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB1dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB2c3EAfgBpdAADQW55c3EAfgBtc3EAfgBwdXEAfgBzAAAAAnNxAH4AdXQABXNjYWxhcQB+AHx1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWLWZBtd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA3QzpcVXNlcnNcTWludFxEZXNrdG9wXHNidFxiaW5cdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFCc0JkJHw8bV1P/y4iGztlFiSp/k
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwDn2ZMQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDEKUw9dAAEc2VsZnNxAH4AC9GGhOt0AAdjb250ZXh0dXEAfgAJAAAAO3NxAH4AC2edYWh0AAZub3RpZnlzcQB+AAsA5CuqdAAHdW5hcHBseXNxAH4ACzS1jrd0AAdjdXJyaWVkc3EAfgALOm6jaHQAB1JlY2VpdmVzcQB+AAuTPeJmdAAEd2FpdHNxAH4AC7p+VyN0AA5jb3B5JGRlZmF1bHQkMnNxAH4ACxUV5eB0AA0kYXNJbnN0YW5jZU9mc3EAfgALeLLOM3QAB2NvbXBvc2VzcQB+AAu0e/BydAAMcHJvZHVjdEFyaXR5c3EAfgALgnbFM3QABmVxdWFsc3NxAH4AC63J1xl0AAxhc0luc3RhbmNlT2ZzcQB+AAvp7M7udAAFcmVhZHlzcQB+AAvZlacQdAAMc3luY2hyb25pemVkc3EAfgALkAlOeXQAB0Nvbm5lY3RzcQB+AAvvwoqTdAANJGlzSW5zdGFuY2VPZnNxAH4AC/3ADEB0AAdhbmRUaGVuc3EAfgALqPAZ5XQAB3JlY2VpdmVzcQB+AAsWHvcadAAKcHJlUmVzdGFydHNxAH4AC27c2/N0AAZ0dXBsZWRzcQB+AAtCC2dzdAAKYWN0aXZlUm9vbXNxAH4AC4xVu+R0AANyZWZzcQB+AAu8Fem2dAANYXJvdW5kUmVjZWl2ZXNxAH4ACxVM+/p0AAhjYW5FcXVhbHNxAH4AC5k7Uwd0AAtwb3N0UmVzdGFydHNxAH4AC40KihB0AAhwb3N0U3RvcHNxAH4AC71jiCZ0AA1wcm9kdWN0UHJlZml4c3EAfgAL2F09ZXQACW5vdGlmeUFsbHNxAH4AC4POCvV0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4AC41rShx0AAxpc0luc3RhbmNlT2ZzcQB+AAsXHpqkdAAQYXJvdW5kUHJlUmVzdGFydHNxAH4AC7nAqxh0AA5hcm91bmRQb3N0U3RvcHNxAH4AC0Q+jr50AAhyb2xsRGljZXNxAH4AC7Ixep10AAY8aW5pdD5zcQB+AAvXbwV6dAAIcHJlU3RhcnRzcQB+AAvCCl4ldAAJdW5oYW5kbGVkc3EAfgALZtNRW3QAC3NlcnZlckFjdG9yc3EAfgALA0Ae+3QABWFwcGx5c3EAfgALWK7jV3QAAj09c3EAfgALkXxExHQABWNsb25lc3EAfgALYIR/2nQABiRpbml0JHNxAH4AC6XXoYV0AAhwbGF5ZXJJZHNxAH4ACypVv/R0AARjb3B5c3EAfgALaw0gdnQABnNlbmRlcnNxAH4AC0f+lIl0AAh0b1N0cmluZ3NxAH4AC9qvfwx0AAIhPXNxAH4AC2KpNzt0AAhnZXRDbGFzc3NxAH4AC1ZmM7V0AA5jb3B5JGRlZmF1bHQkMXNxAH4AC+wRUvR0AARyb29tc3EAfgALt6U6enQAAm5lc3EAfgALKj1OXHQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4ACxiopyl0AAJlcXNxAH4AC/oE1md0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAu6rZngdAAKcGxheWVyTmFtZXNxAH4AC0HhpLZ0AAIjI3NxAH4AC1GN84h0AAhmaW5hbGl6ZXNxAH4AC+LwXJZ0AA5wcm9kdWN0RWxlbWVudHNxAH4AC+env7h0AAhoYXNoQ29kZXNxAH4ACyzJzYt0AA5hcm91bmRQcmVTdGFydHNxAH4AC6b+1AN0AAZhY3RpdmVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCReHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+AFl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJ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
 external apis:
 0 items
 source infos:
-3 items
+7 items
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala -> 
 AAAAAAAAAAA=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala -> 
+AAAAAAAAAAA=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\player.scala -> 
+AAAAAAAAAAA=
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala -> 
+AAAACgAAAQAAAA8AFyAgICBjYXNlIHN0YXJ0R2FtZSA9PiB7AQAAAQsBAAAACQEACSAgICAgICAgIAEAPkM6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHNyY1xtYWluXHNjYWxhXHBsYXllckFjdG9yLnNjYWxhAQA+QzpcVXNlcnNcTWludFxEZXNrdG9wXHNidFxiaW5cc3JjXG1haW5cc2NhbGFccGxheWVyQWN0b3Iuc2NhbGEAOnBhdHRlcm5zIGFmdGVyIGEgdmFyaWFibGUgcGF0dGVybiBjYW5ub3QgbWF0Y2ggKFNMUyA4LjEuMSkBAAABAAAAEgAYICAgIGNhc2UgcGxheWVyVHVybiA9PiB7AQAAAVQBAAAAFwEAFyAgICAgICAgICAgICAgICAgICAgICAgAQA+QzpcVXNlcnNcTWludFxEZXNrdG9wXHNidFxiaW5cc3JjXG1haW5cc2NhbGFccGxheWVyQWN0b3Iuc2NhbGEBAD5DOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblxzcmNcbWFpblxzY2FsYVxwbGF5ZXJBY3Rvci5zY2FsYQA/dW5yZWFjaGFibGUgY29kZSBkdWUgdG8gdmFyaWFibGUgcGF0dGVybiAnc3RhcnRHYW1lJyBvbiBsaW5lIDE1AQAAAQAAABcAJCAgICAgIHByaW50bG4oIk1PVklORyBUSEUgUExBWUVSUyIpOwEAAAGtAQAAAA0BAA0gICAgICAgICAgICAgAQA+QzpcVXNlcnNcTWludFxEZXNrdG9wXHNidFxiaW5cc3JjXG1haW5cc2NhbGFccGxheWVyQWN0b3Iuc2NhbGEBAD5DOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblxzcmNcbWFpblxzY2FsYVxwbGF5ZXJBY3Rvci5zY2FsYQA/dW5yZWFjaGFibGUgY29kZSBkdWUgdG8gdmFyaWFibGUgcGF0dGVybiAnc3RhcnRHYW1lJyBvbiBsaW5lIDE1AQAAAQAAABkALiAgICBjYXNlIHJlZ2lzdHJhdGlvblN1Y2Nlc3Mocm9vbSA6IFJvb20pID0+IHsBAAAB+AEAAAAtAQAtICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAQA+QzpcVXNlcnNcTWludFxEZXNrdG9wXHNidFxiaW5cc3JjXG1haW5cc2NhbGFccGxheWVyQWN0b3Iuc2NhbGEBAD5DOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblxzcmNcbWFpblxzY2FsYVxwbGF5ZXJBY3Rvci5zY2FsYQA/dW5yZWFjaGFibGUgY29kZSBkdWUgdG8gdmFyaWFibGUgcGF0dGVybiAnc3RhcnRHYW1lJyBvbiBsaW5lIDE1AQAAAQAAABIAGCAgICBjYXNlIHBsYXllclR1cm4gPT4gewEAAAFUAQAAABcBABcgICAgICAgICAgICAgICAgICAgICAgIAEAPkM6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHNyY1xtYWluXHNjYWxhXHBsYXllckFjdG9yLnNjYWxhAQA+QzpcVXNlcnNcTWludFxEZXNrdG9wXHNidFxiaW5cc3JjXG1haW5cc2NhbGFccGxheWVyQWN0b3Iuc2NhbGEAEHVucmVhY2hhYmxlIGNvZGUBAAABAAAADwAXICAgIGNhc2Ugc3RhcnRHYW1lID0+IHsBAAABCwEAAAAJAQAJICAgICAgICAgAQA+QzpcVXNlcnNcTWludFxEZXNrdG9wXHNidFxiaW5cc3JjXG1haW5cc2NhbGFccGxheWVyQWN0b3Iuc2NhbGEBAD5DOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblxzcmNcbWFpblxzY2FsYVxwbGF5ZXJBY3Rvci5zY2FsYQA6cGF0dGVybnMgYWZ0ZXIgYSB2YXJpYWJsZSBwYXR0ZXJuIGNhbm5vdCBtYXRjaCAoU0xTIDguMS4xKQEAAAEAAAASABggICAgY2FzZSBwbGF5ZXJUdXJuID0+IHsBAAABVAEAAAAXAQAXICAgICAgICAgICAgICAgICAgICAgICABAD5DOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblxzcmNcbWFpblxzY2FsYVxwbGF5ZXJBY3Rvci5zY2FsYQEAPkM6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHNyY1xtYWluXHNjYWxhXHBsYXllckFjdG9yLnNjYWxhAD91bnJlYWNoYWJsZSBjb2RlIGR1ZSB0byB2YXJpYWJsZSBwYXR0ZXJuICdzdGFydEdhbWUnIG9uIGxpbmUgMTUBAAABAAAAFwAkICAgICAgcHJpbnRsbigiTU9WSU5HIFRIRSBQTEFZRVJTIik7AQAAAa0BAAAADQEADSAgICAgICAgICAgICABAD5DOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblxzcmNcbWFpblxzY2FsYVxwbGF5ZXJBY3Rvci5zY2FsYQEAPkM6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHNyY1xtYWluXHNjYWxhXHBsYXllckFjdG9yLnNjYWxhAD91bnJlYWNoYWJsZSBjb2RlIGR1ZSB0byB2YXJpYWJsZSBwYXR0ZXJuICdzdGFydEdhbWUnIG9uIGxpbmUgMTUBAAABAAAAGQAuICAgIGNhc2UgcmVnaXN0cmF0aW9uU3VjY2Vzcyhyb29tIDogUm9vbSkgPT4gewEAAAH4AQAAAC0BAC0gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICABAD5DOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblxzcmNcbWFpblxzY2FsYVxwbGF5ZXJBY3Rvci5zY2FsYQEAPkM6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHNyY1xtYWluXHNjYWxhXHBsYXllckFjdG9yLnNjYWxhAD91bnJlYWNoYWJsZSBjb2RlIGR1ZSB0byB2YXJpYWJsZSBwYXR0ZXJuICdzdGFydEdhbWUnIG9uIGxpbmUgMTUBAAABAAAAEgAYICAgIGNhc2UgcGxheWVyVHVybiA9PiB7AQAAAVQBAAAAFwEAFyAgICAgICAgICAgICAgICAgICAgICAgAQA+QzpcVXNlcnNcTWludFxEZXNrdG9wXHNidFxiaW5cc3JjXG1haW5cc2NhbGFccGxheWVyQWN0b3Iuc2NhbGEBAD5DOlxVc2Vyc1xNaW50XERlc2t0b3Bcc2J0XGJpblxzcmNcbWFpblxzY2FsYVxwbGF5ZXJBY3Rvci5zY2FsYQAQdW5yZWFjaGFibGUgY29kZQEAAAAA
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Room.scala -> 
+AAAAAAAAAAA=
+C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomHandler.scala -> 
 AAAAAAAAAAA=
 C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala -> 
 AAAAAAAAAAA=
 compilations:
-2 items
+3 items
 0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWKaUVCZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAN0M6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEv
 1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWLWZBtd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAN0M6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEv
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWLsA6mp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAN0M6XFVzZXJzXE1pbnRcRGVza3RvcFxzYnRcYmluXHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEv
