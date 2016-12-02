@@ -12,6 +12,13 @@ import scalafx.collections.ObservableBuffer
 class roomWindowController(
     private val listView: ListView[player]
 ) {
+  private var _dialogStage : Option[Stage] = None
+  
+  def dialogStage = _dialogStage.get
+  def dialogStage_= (x : Stage)
+  {
+    _dialogStage = Some(x)
+  }
   
   def setPlayerList(players: Iterable[player]){
     listView.userData = players

@@ -1,59 +1,9 @@
 [0m[[0mdebug[0m] [0mjavaOptions: List()[0m
 [0m[[0minfo[0m] [0mRunning clientApplication [0m
-[0m[[31merror[0m] [0mException in thread "main" java.lang.ExceptionInInitializerError[0m
-[0m[[31merror[0m] [0m	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m
-[0m[[31merror[0m] [0m	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)[0m
-[0m[[31merror[0m] [0m	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)[0m
-[0m[[31merror[0m] [0m	at java.lang.reflect.Constructor.newInstance(Unknown Source)[0m
-[0m[[31merror[0m] [0m	at java.lang.Class.newInstance(Unknown Source)[0m
-[0m[[31merror[0m] [0m	at sun.reflect.misc.ReflectUtil.newInstance(Unknown Source)[0m
-[0m[[31merror[0m] [0m	at javafx.fxml.FXMLLoader$InstanceDeclarationElement.constructValue(FXMLLoader.java:1009)[0m
-[0m[[31merror[0m] [0m	at javafx.fxml.FXMLLoader$ValueElement.processStartElement(FXMLLoader.java:746)[0m
-[0m[[31merror[0m] [0m	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2707)[0m
-[0m[[31merror[0m] [0m	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2527)[0m
-[0m[[31merror[0m] [0m	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2425)[0m
-[0m[[31merror[0m] [0m	at clientApplication$.delayedEndpoint$clientApplication$1(clientApplication.scala:20)[0m
-[0m[[31merror[0m] [0m	at clientApplication$delayedInit$body.apply(clientApplication.scala:13)[0m
-[0m[[31merror[0m] [0m	at scala.Function0$class.apply$mcV$sp(Function0.scala:34)[0m
-[0m[[31merror[0m] [0m	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)[0m
-[0m[[31merror[0m] [0m	at scala.App$$anonfun$main$1.apply(App.scala:76)[0m
-[0m[[31merror[0m] [0m	at scala.App$$anonfun$main$1.apply(App.scala:76)[0m
-[0m[[31merror[0m] [0m	at scala.collection.immutable.List.foreach(List.scala:381)[0m
-[0m[[31merror[0m] [0m	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:35)[0m
-[0m[[31merror[0m] [0m	at scala.App$class.main(App.scala:76)[0m
-[0m[[31merror[0m] [0m	at clientApplication$.main(clientApplication.scala:13)[0m
-[0m[[31merror[0m] [0m	at clientApplication.main(clientApplication.scala)[0m
-[0m[[31merror[0m] [0mCaused by: java.lang.IllegalStateException: Toolkit not initialized[0m
-[0m[[31merror[0m] [0m	at com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:273)[0m
-[0m[[31merror[0m] [0m	at com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:268)[0m
-[0m[[31merror[0m] [0m	at com.sun.javafx.application.PlatformImpl.setPlatformUserAgentStylesheet(PlatformImpl.java:550)[0m
-[0m[[31merror[0m] [0m	at com.sun.javafx.application.PlatformImpl.setDefaultPlatformUserAgentStylesheet(PlatformImpl.java:512)[0m
-[0m[[31merror[0m] [0m	at javafx.scene.control.Control.<clinit>(Control.java:87)[0m
-[0m[[31merror[0m] [0m	... 22 more[0m
-java.lang.RuntimeException: Nonzero exit code returned from runner: 1
-	at scala.sys.package$.error(package.scala:27)
-	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:2081)
-	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:2081)
-	at scala.Option.foreach(Option.scala:236)
-	at sbt.BuildCommon$class.toError(Defaults.scala:2081)
-	at sbt.Defaults$.toError(Defaults.scala:39)
-	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$38$$anonfun$apply$39.apply(Defaults.scala:750)
-	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$38$$anonfun$apply$39.apply(Defaults.scala:748)
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
-	at sbt.std.Transform$$anon$4.work(System.scala:63)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
-	at sbt.Execute.work(Execute.scala:237)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
-	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
-	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-[0m[[31merror[0m] [0m(compile:[31mrun[0m) Nonzero exit code returned from runner: 1[0m
+[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:43.030] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:43.372] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:5150][0m
+[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:43.373] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:5150][0m
+[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:53.730] [SnakeAndLadder-akka.remote.default-remote-dispatcher-15] [akka.tcp://SnakeAndLadder@127.0.0.1:5150/system/remoting-terminator] Shutting down remote daemon.[0m
+[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:53.732] [SnakeAndLadder-akka.remote.default-remote-dispatcher-15] [akka.tcp://SnakeAndLadder@127.0.0.1:5150/system/remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports.[0m
+[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:53.755] [SnakeAndLadder-akka.actor.default-dispatcher-2] [akka.remote.Remoting] Remoting shut down[0m
+[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:53.755] [SnakeAndLadder-akka.remote.default-remote-dispatcher-15] [akka.tcp://SnakeAndLadder@127.0.0.1:5150/system/remoting-terminator] Remoting shut down.[0m

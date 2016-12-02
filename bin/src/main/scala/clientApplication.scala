@@ -48,5 +48,23 @@ object clientApplication extends JFXApp {
     }
   }
   
-  
+ def replaceSceneContent(fxml: String){
+   
+   val loader = new FXMLLoader(null, NoDependencyResolver)
+   val resource = getClass.getResourceAsStream(fxml)
+   loader.load(resource)
+   var page = loader.getRoot[javafx.scene.layout.BorderPane]
+   var scene = stage.getScene();
+    if (scene == null) {
+        scene = new Scene(700, 450);
+        stage.setScene(scene);
+    } else {
+        stage.getScene().setRoot(page);
+    }
+    stage.sizeToScene();
+    return page;
+  }
 }
+
+
+ 
