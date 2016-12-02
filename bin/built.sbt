@@ -24,4 +24,4 @@ mainClass in assembly := Some("hep88.Boom")
 
 EclipseKeys.executionEnvironment := Some(EclipseExecutionEnvironment.JavaSE18)
 
-//fork := true
+fork := true

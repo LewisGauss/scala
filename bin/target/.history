@@ -8,3 +8,11 @@ reload
 compile
 eclipse
 exit
+eclipse
+compile
+reload
+compile
+run
+reload
+compile
+run

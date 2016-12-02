@@ -1,9 +1,11 @@
 import akka.actor._;
 
-class playerActor extends Actor{
+class playerActor(val control: startingWindowController#Controller) extends Actor{
+  
   import playerActor._;
   import serverActor._;
   
+  val serverActor = context.actorSelection("akka.tcp://SnakeAndLadder@127.0.0.1:5150/user/serverActor")
   var isReady : Boolean = false;
   var myTurn : Boolean = false;
   var currentRoom : Room = null;
