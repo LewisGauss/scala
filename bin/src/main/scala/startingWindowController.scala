@@ -13,32 +13,21 @@ import scalafxml.core.FXMLLoader
 import scalafxml.core.NoDependencyResolver
 import scalafx.scene.{Scene,Parent}
 import clientApplication._
+import scalafx.scene.image.{ImageView,Image}
 
 @sfxml
-class startingWindowController(inputNameField: TextField){
+class startingWindowController(inputNameField: TextField,startingImage: ImageView){
   
+  val image = new Image(getClass.getResourceAsStream("starting.png"));
+  startingImage.setImage(image)
   var stage: Option[Stage] = None
   
   def handleConnect(event: ActionEvent){
     val input = inputNameField.text.value
     input.trim
     if(input != ""){
-//        val loader = new FXMLLoader(null, NoDependencyResolver)
-//        val resource = getClass.getResourceAsStream("roomWindow.fxml")
-//        loader.load(resource)
-//        val roots = loader.getRoot[javafx.scene.Parent]
-//        val control = loader.getController[roomWindowController#Controller] //get controller of the dialog
-//        val window = new Stage(){
-//          
-//          initOwner(clientApplication.stage)
-//          scene = new Scene
-//          {
-//            root = roots
-//          }
-//        }
-        //control.dialogStage = window
-        //window.show()
-        clientApplication.replaceSceneContent("roomWindow.fxml")
+      
+      clientApplication.replaceSceneContent("roomWindow.fxml")
         
       //connect user to a game room when user enter a valid name
 //      implicit val timeout: Timeout = Timeout(30 seconds)

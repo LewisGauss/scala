@@ -55,11 +55,12 @@ object clientApplication extends JFXApp {
    loader.load(resource)
    var page = loader.getRoot[javafx.scene.layout.BorderPane]
    var scene = stage.getScene();
-    if (scene == null) {
-        scene = new Scene(700, 450);
-        stage.setScene(scene);
-    } else {
-        stage.getScene().setRoot(page);
+   
+   if (scene == null) {
+       scene = new Scene(700, 450);
+       stage.setScene(scene);
+    }else {
+       stage.getScene().setRoot(page);
     }
     stage.sizeToScene();
     return page;
