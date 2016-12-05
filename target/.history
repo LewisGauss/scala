@@ -1,0 +1,11 @@
+exit
+reload
+compile
+eclipse
+run
+compile
+eclipse
+eclipse with-source=true
+cat ~/.sbt/0.13/plugins/plugins.sbt
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.5.0")
+exit
