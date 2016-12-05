@@ -25,19 +25,19 @@ class GameboardController {
   rollButton.disable = true
   rollButton.layoutX = 650
   rollButton.layoutY = 500
-  val rec1 = new Rectangle {
-    width = 30
-    height = 30
-    fill = LightGreen
-    x = 12
-    y = 560
-  }
 
   def getCoordinates(position: Int): Coor = {
-    val x = ((position - 1) % 10) * 60
+    var x : Double = 0;
+    if( Math.floor(position/10) % 2 == 0){
+       x = ((position - 1) % 10) * 60
+    }else{
+       x = 560 - (((position - 1) % 10) * 60)
+    }
     val y = 560 - (Math.floor((position - 1) / 10) * 60)
     return new Coor(x, y)
   }
+  
+  var playersMap = new HashMap[player, Rectangle]();
 
   var counter = 1;
 
@@ -51,7 +51,6 @@ class GameboardController {
     diceNum.layoutX = 650
     diceNum.layoutY = 550
 
-    var playersMap = new HashMap[player, Label]();
     var labelY = 50;
 
     val rootPane = new BorderPane
@@ -65,19 +64,29 @@ class GameboardController {
     mainPane.getChildren().add(diceNum)
     for (p <- clientApplication.currentRoom.playerList) {
       val playerLabel = new Label(p.name);
+      val rec1 = new Rectangle {
+        width = 30
+        height = 30
+        fill = LightGreen
+        x = 12
+        y = 560
+      }
       playerLabel.layoutX = 650;
       playerLabel.layoutY = labelY
-      playersMap.put(p, playerLabel);
+      playersMap.put(p, rec1);
       labelY += 30;
       mainPane.getChildren().add(playerLabel);
+
+
+      mainPane.getChildren().add(rec1)
     }
 
-    mainPane.getChildren().add(rec1)
     //content = List(imv, rollButton, diceNum, player1, player2, player3, player4)
 
     rollButton.onMouseClicked = (e: Event) => {
       println("Clicked")
       clientApplication.clientActor ! Play
+      rollButton.disable = true;
     }
   }
 
@@ -86,7 +95,11 @@ class GameboardController {
   }
 
   def updateUI() {
-
+    for (p <- clientApplication.currentRoom.playerList) {
+      val pos = getCoordinates(p.position)
+      val rec = playersMap(p);
+      rec.relocate(pos.x,pos.y)
+    }
   }
 
 }
