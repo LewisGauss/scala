@@ -1,11 +1,11 @@
 [0m[[0mdebug[0m] [0mjavaOptions: List()[0m
 [0m[[0minfo[0m] [0mRunning clientApplication [0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 00:52:05.839] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 00:52:06.035] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:19159][0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 00:52:06.036] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:19159][0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 01:21:00.316] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 01:21:00.514] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:19827][0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 01:21:00.516] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:19827][0m
 [0m[[0minfo[0m] [0mattempt connect[0m
-[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 00:52:11.813] [SnakeAndLadder-akka.remote.default-remote-dispatcher-6] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$Connect] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
-[0m[[0minfo[0m] [0m[ERROR] [12/06/2016 00:52:11.984] [SnakeAndLadder-akka.actor.default-dispatcher-16] [akka://SnakeAndLadder/user/clientActor] null[0m
+[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 01:21:07.206] [SnakeAndLadder-akka.remote.default-remote-dispatcher-6] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$Connect] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0m[ERROR] [12/06/2016 01:21:07.301] [SnakeAndLadder-akka.actor.default-dispatcher-2] [akka://SnakeAndLadder/user/clientActor] null[0m
 [0m[[0minfo[0m] [0mjava.lang.NullPointerException[0m
 [0m[[0minfo[0m] [0m	at playerActor$$anonfun$receive$1.applyOrElse(playerActor.scala:71)[0m
 [0m[[0minfo[0m] [0m	at akka.actor.Actor$class.aroundReceive(Actor.scala:484)[0m
@@ -20,27 +20,79 @@
 [0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)[0m
 [0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)[0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 00:52:11.989] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$PlayerReady] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
-[0m[[0minfo[0m] [0mUpdated list[0m
-[0m[[0minfo[0m] [0mSTART GAME[0m
-[0m[[0minfo[0m] [0mClicked[0m
-[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 00:52:18.969] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$RollDice$] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
-[0m[[0minfo[0m] [0mdice result :5[0m
-[0m[[0minfo[0m] [0mdice result :1[0m
-[0m[[0minfo[0m] [0mClicked[0m
-[0m[[0minfo[0m] [0mdice result :4[0m
-[0m[[0minfo[0m] [0mdice result :3[0m
-[0m[[0minfo[0m] [0mClicked[0m
-[0m[[0minfo[0m] [0mdice result :3[0m
-[0m[[0minfo[0m] [0mdice result :3[0m
-[0m[[0minfo[0m] [0mClicked[0m
-[0m[[0minfo[0m] [0mdice result :1[0m
-[0m[[0minfo[0m] [0mdice result :2[0m
-[0m[[0minfo[0m] [0mClicked[0m
-[0m[[0minfo[0m] [0mdice result :5[0m
-[0m[[0minfo[0m] [0mdice result :4[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 00:53:01.623] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.tcp://SnakeAndLadder@127.0.0.1:19159/system/remoting-terminator] Shutting down remote daemon.[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 00:53:01.626] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.tcp://SnakeAndLadder@127.0.0.1:19159/system/remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports.[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 00:53:01.685] [SnakeAndLadder-akka.actor.default-dispatcher-14] [akka.remote.Remoting] Remoting shut down[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 00:53:01.687] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.tcp://SnakeAndLadder@127.0.0.1:19159/system/remoting-terminator] Remoting shut down.[0m
+[0m[[0minfo[0m] [0m[ERROR] [12/06/2016 01:21:07.305] [SnakeAndLadder-akka.remote.default-remote-dispatcher-7] [akka.tcp://SnakeAndLadder@127.0.0.1:19827/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2FSnakeGame%40192.168.0.172%3A1305-0/endpointWriter] AssociationError [akka.tcp://SnakeAndLadder@127.0.0.1:19827] -> [akka.tcp://SnakeGame@192.168.0.172:1305]: Error [Room; local class incompatible: stream classdesc serialVersionUID = 2094824325538341576, local class serialVersionUID = -8780636823655670001] [[0m
+[0m[[0minfo[0m] [0mjava.io.InvalidClassException: Room; local class incompatible: stream classdesc serialVersionUID = 2094824325538341576, local class serialVersionUID = -8780636823655670001[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectStreamClass.initNonProxy(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readNonProxyDesc(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readClassDesc(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readObject0(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.defaultReadFields(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readSerialData(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readObject0(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readObject(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at akka.serialization.JavaSerializer$$anonfun$1.apply(Serializer.scala:295)[0m
+[0m[[0minfo[0m] [0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)[0m
+[0m[[0minfo[0m] [0m	at akka.serialization.JavaSerializer.fromBinary(Serializer.scala:295)[0m
+[0m[[0minfo[0m] [0m	at akka.serialization.Serialization.akka$serialization$Serialization$$deserializeByteArray(Serialization.scala:151)[0m
+[0m[[0minfo[0m] [0m	at akka.serialization.Serialization$$anonfun$deserialize$2.apply(Serialization.scala:137)[0m
+[0m[[0minfo[0m] [0m	at scala.util.Try$.apply(Try.scala:192)[0m
+[0m[[0minfo[0m] [0m	at akka.serialization.Serialization.deserialize(Serialization.scala:131)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.MessageSerializer$.deserialize(MessageSerializer.scala:30)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.DefaultMessageDispatcher.payload$lzycompute$1(Endpoint.scala:64)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.DefaultMessageDispatcher.payload$1(Endpoint.scala:64)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.DefaultMessageDispatcher.msgLog$1(Endpoint.scala:69)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.DefaultMessageDispatcher.dispatch(Endpoint.scala:81)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.EndpointReader$$anonfun$receive$2.applyOrElse(Endpoint.scala:987)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.Actor$class.aroundReceive(Actor.scala:484)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.EndpointActor.aroundReceive(Endpoint.scala:452)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.invoke(ActorCell.scala:495)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.run(Mailbox.scala:224)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)[0m
+[0m[[0minfo[0m] [0m][0m
+[0m[[0minfo[0m] [0m[WARN] [12/06/2016 01:21:07.316] [SnakeAndLadder-akka.remote.default-remote-dispatcher-6] [akka.tcp://SnakeAndLadder@127.0.0.1:19827/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2FSnakeGame%40192.168.0.172%3A1305-0] Association with remote system [akka.tcp://SnakeGame@192.168.0.172:1305] has failed, address is now gated for [5000] ms. Reason: [Room; local class incompatible: stream classdesc serialVersionUID = 2094824325538341576, local class serialVersionUID = -8780636823655670001] [0m
+[0m[[0minfo[0m] [0m[ERROR] [12/06/2016 01:21:07.318] [SnakeAndLadder-akka.remote.default-remote-dispatcher-7] [akka.remote.Remoting] Room; local class incompatible: stream classdesc serialVersionUID = 2094824325538341576, local class serialVersionUID = -8780636823655670001[0m
+[0m[[0minfo[0m] [0mjava.io.InvalidClassException: Room; local class incompatible: stream classdesc serialVersionUID = 2094824325538341576, local class serialVersionUID = -8780636823655670001[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectStreamClass.initNonProxy(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readNonProxyDesc(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readClassDesc(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readObject0(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.defaultReadFields(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readSerialData(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readObject0(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at java.io.ObjectInputStream.readObject(Unknown Source)[0m
+[0m[[0minfo[0m] [0m	at akka.serialization.JavaSerializer$$anonfun$1.apply(Serializer.scala:295)[0m
+[0m[[0minfo[0m] [0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)[0m
+[0m[[0minfo[0m] [0m	at akka.serialization.JavaSerializer.fromBinary(Serializer.scala:295)[0m
+[0m[[0minfo[0m] [0m	at akka.serialization.Serialization.akka$serialization$Serialization$$deserializeByteArray(Serialization.scala:151)[0m
+[0m[[0minfo[0m] [0m	at akka.serialization.Serialization$$anonfun$deserialize$2.apply(Serialization.scala:137)[0m
+[0m[[0minfo[0m] [0m	at scala.util.Try$.apply(Try.scala:192)[0m
+[0m[[0minfo[0m] [0m	at akka.serialization.Serialization.deserialize(Serialization.scala:131)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.MessageSerializer$.deserialize(MessageSerializer.scala:30)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.DefaultMessageDispatcher.payload$lzycompute$1(Endpoint.scala:64)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.DefaultMessageDispatcher.payload$1(Endpoint.scala:64)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.DefaultMessageDispatcher.msgLog$1(Endpoint.scala:69)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.DefaultMessageDispatcher.dispatch(Endpoint.scala:81)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.EndpointReader$$anonfun$receive$2.applyOrElse(Endpoint.scala:987)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.Actor$class.aroundReceive(Actor.scala:484)[0m
+[0m[[0minfo[0m] [0m	at akka.remote.EndpointActor.aroundReceive(Endpoint.scala:452)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.invoke(ActorCell.scala:495)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.run(Mailbox.scala:224)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 01:21:07.331] [SnakeAndLadder-akka.actor.default-dispatcher-5] [akka://SnakeAndLadder/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2FSnakeGame%40192.168.0.172%3A1305-0/endpointWriter/endpointReader-akka.tcp%3A%2F%2FSnakeGame%40192.168.0.172%3A1305-0] Message [akka.remote.transport.AssociationHandle$InboundPayload] from Actor[akka://SnakeAndLadder/deadLetters] to Actor[akka://SnakeAndLadder/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2FSnakeGame%40192.168.0.172%3A1305-0/endpointWriter/endpointReader-akka.tcp%3A%2F%2FSnakeGame%40192.168.0.172%3A1305-0#726294375] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.[0m

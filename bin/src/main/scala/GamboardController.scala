@@ -31,7 +31,7 @@ class GameboardController {
     if( Math.floor(position/10) % 2 == 0){
        x = ((position - 1) % 10) * 60
     }else{
-       x = 560 - (((position - 1) % 10) * 60)
+       x = 560 - (((position - 1) % 11) * 60)
     }
     val y = 560 - (Math.floor((position - 1) / 10) * 60)
     return new Coor(x, y)
