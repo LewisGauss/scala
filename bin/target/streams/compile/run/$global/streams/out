@@ -1,9 +1,47 @@
 [0m[[0mdebug[0m] [0mjavaOptions: List()[0m
 [0m[[0minfo[0m] [0mRunning clientApplication [0m
-[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:43.030] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
-[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:43.372] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:5150][0m
-[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:43.373] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:5150][0m
-[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:53.730] [SnakeAndLadder-akka.remote.default-remote-dispatcher-15] [akka.tcp://SnakeAndLadder@127.0.0.1:5150/system/remoting-terminator] Shutting down remote daemon.[0m
-[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:53.732] [SnakeAndLadder-akka.remote.default-remote-dispatcher-15] [akka.tcp://SnakeAndLadder@127.0.0.1:5150/system/remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports.[0m
-[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:53.755] [SnakeAndLadder-akka.actor.default-dispatcher-2] [akka.remote.Remoting] Remoting shut down[0m
-[0m[[0minfo[0m] [0m[INFO] [12/02/2016 23:55:53.755] [SnakeAndLadder-akka.remote.default-remote-dispatcher-15] [akka.tcp://SnakeAndLadder@127.0.0.1:5150/system/remoting-terminator] Remoting shut down.[0m
+[0m[[0minfo[0m] [0m[INFO] [12/05/2016 13:45:20.267] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [12/05/2016 13:45:20.502] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:5150][0m
+[0m[[0minfo[0m] [0m[INFO] [12/05/2016 13:45:20.503] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:5150][0m
+[0m[[0minfo[0m] [0mADDED PLAYER john[0m
+[0m[[0minfo[0m] [0mROOM : Room@7679ea27[0m
+[0m[[0minfo[0m] [0mhi[0m
+[0m[[0minfo[0m] [0mPlayer list received [0m
+[0m[[0minfo[0m] [0m---------------------------------[0m
+[0m[[0minfo[0m] [0mPlayer 0 : john[0m
+[0m[[0minfo[0m] [0mRegistered [0m
+[0m[[0minfo[0m] [0m ROOM : Room@7679ea27[0m
+[0m[[0minfo[0m] [0m[ERROR] [12/05/2016 13:45:24.546] [SnakeAndLadder-akka.actor.default-dispatcher-4] [akka://SnakeAndLadder/user/clientActor] Not on FX application thread; currentThread = SnakeAndLadder-akka.actor.default-dispatcher-4[0m
+[0m[[0minfo[0m] [0mjava.lang.IllegalStateException: Not on FX application thread; currentThread = SnakeAndLadder-akka.actor.default-dispatcher-4[0m
+[0m[[0minfo[0m] [0m	at com.sun.javafx.tk.Toolkit.checkFxUserThread(Toolkit.java:236)[0m
+[0m[[0minfo[0m] [0m	at com.sun.javafx.tk.quantum.QuantumToolkit.checkFxUserThread(QuantumToolkit.java:423)[0m
+[0m[[0minfo[0m] [0m	at javafx.scene.Parent$2.onProposedChange(Parent.java:367)[0m
+[0m[[0minfo[0m] [0m	at com.sun.javafx.collections.VetoableListDecorator.setAll(VetoableListDecorator.java:113)[0m
+[0m[[0minfo[0m] [0m	at com.sun.javafx.collections.VetoableListDecorator.setAll(VetoableListDecorator.java:108)[0m
+[0m[[0minfo[0m] [0m	at com.sun.javafx.scene.control.skin.LabeledSkinBase.updateChildren(LabeledSkinBase.java:575)[0m
+[0m[[0minfo[0m] [0m	at com.sun.javafx.scene.control.skin.LabeledSkinBase.<init>(LabeledSkinBase.java:127)[0m
+[0m[[0minfo[0m] [0m	at com.sun.javafx.scene.control.skin.ButtonSkin.<init>(ButtonSkin.java:44)[0m
+[0m[[0minfo[0m] [0m	at javafx.scene.control.Button.createDefaultSkin(Button.java:191)[0m
+[0m[[0minfo[0m] [0m	at javafx.scene.control.Control.impl_processCSS(Control.java:872)[0m
+[0m[[0minfo[0m] [0m	at javafx.scene.Parent.impl_processCSS(Parent.java:1280)[0m
+[0m[[0minfo[0m] [0m	at javafx.scene.Parent.impl_processCSS(Parent.java:1280)[0m
+[0m[[0minfo[0m] [0m	at javafx.scene.Node.processCSS(Node.java:9058)[0m
+[0m[[0minfo[0m] [0m	at javafx.scene.Scene.doCSSPass(Scene.java:545)[0m
+[0m[[0minfo[0m] [0m	at javafx.scene.Scene.preferredSize(Scene.java:1643)[0m
+[0m[[0minfo[0m] [0m	at javafx.scene.Scene.impl_preferredSize(Scene.java:1720)[0m
+[0m[[0minfo[0m] [0m	at javafx.stage.Window.sizeToScene(Window.java:218)[0m
+[0m[[0minfo[0m] [0m	at scalafx.stage.Window.sizeToScene(Window.scala:186)[0m
+[0m[[0minfo[0m] [0m	at clientApplication$.replaceSceneContent(clientApplication.scala:66)[0m
+[0m[[0minfo[0m] [0m	at playerActor$$anonfun$receive$1.applyOrElse(playerActor.scala:56)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.Actor$class.aroundReceive(Actor.scala:484)[0m
+[0m[[0minfo[0m] [0m	at playerActor.aroundReceive(playerActor.scala:11)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:526)[0m
+[0m[[0minfo[0m] [0m	at akka.actor.ActorCell.invoke(ActorCell.scala:495)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.run(Mailbox.scala:224)[0m
+[0m[[0minfo[0m] [0m	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)[0m
+[0m[[0minfo[0m] [0m	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)[0m
+[0m[[0minfo[0m] [0m[0m

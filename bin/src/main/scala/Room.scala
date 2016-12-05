@@ -21,7 +21,6 @@ class Room extends Observable{
         && playerList.size >= 2){
       return true
     }
-    
     return false
   }
   

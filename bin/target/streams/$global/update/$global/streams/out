@@ -4167,7 +4167,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1425ms :: artifacts dl 16ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1494ms :: artifacts dl 17ms[0m
 [0m[[0mdebug[0m] [0m	report for myapp#myapp_2.11;1.0 compile produced in F:\scala-master\scala\bin\target\resolution-cache\reports\myapp-myapp_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for myapp#myapp_2.11;1.0 runtime produced in F:\scala-master\scala\bin\target\resolution-cache\reports\myapp-myapp_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for myapp#myapp_2.11;1.0 test produced in F:\scala-master\scala\bin\target\resolution-cache\reports\myapp-myapp_2.11-test.xml[0m
@@ -4181,5 +4181,5 @@
 [0m[[0mdebug[0m] [0m	report for myapp#myapp_2.11;1.0 docs produced in F:\scala-master\scala\bin\target\resolution-cache\reports\myapp-myapp_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for myapp#myapp_2.11;1.0 pom produced in F:\scala-master\scala\bin\target\resolution-cache\reports\myapp-myapp_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for myapp#myapp_2.11;1.0 scala-tool produced in F:\scala-master\scala\bin\target\resolution-cache\reports\myapp-myapp_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1425ms resolve - 16ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1494ms resolve - 17ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

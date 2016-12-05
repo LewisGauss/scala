@@ -12,9 +12,9 @@ import scalafx.scene.control.Alert
 
 @sfxml
 class roomWindowController(
-    private val playerListTable : TableView[player],
-    private val playerNameColumn : TableColumn[player, String],
-    private val playerStatusColumn : TableColumn[player, String]
+    private var playerListTable : TableView[player],
+    private var playerNameColumn : TableColumn[player, String],
+    private var playerStatusColumn : TableColumn[player, String]
 ) {
 //  private var _dialogStage : Option[Stage] = None
   private var stage: Option[Stage] = None
@@ -25,7 +25,7 @@ class roomWindowController(
 //    _dialogStage = Some(x)
 //  }
   
-  val playerlist = new ObservableBuffer[player]()
+  var playerlist = new ObservableBuffer[player]()
   
   playerListTable.items = playerlist //retrieve the container items
   playerNameColumn.cellValueFactory = (x) => new StringProperty(x.value.name)

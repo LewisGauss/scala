@@ -4,14 +4,14 @@ import scala.concurrent.ExecutionContext.Implicits.global
 import akka.pattern.pipe
 import akka.util.Timeout
 import scala.concurrent.duration._
+ import serverActor._
+
 
 //class playerActor( server : ActorRef,name : String) extends Actor{
-class playerActor(val control: startingWindowController#Controller, server: ActorRef, name: String) extends Actor{
+class playerActor(val control: startingWindowController#Controller, serverActor: ActorRef, name: String) extends Actor{
   import playerActor._
-  import serverActor._
-
   
-  val serverActor = context.actorSelection("akka.tcp://SnakeAndLadder@127.0.0.1:5150/user/serverActor")
+ // val serverActor = context.actorSelection("akka.tcp://SnakeAndLadder@127.0.0.1:5150/user/serverActor")
   var isReady : Boolean = false;
   var myTurn : Boolean = false;
   var currentRoom : Room = null;
@@ -53,6 +53,7 @@ class playerActor(val control: startingWindowController#Controller, server: Acto
     case RegistrationSuccess(room : Room) => {
       this.currentRoom = room;
       println("Registered \n ROOM : " + room)
+      clientApplication.replaceSceneContent("roomWindow.fxml")
     }
     case PlayerList( playerList : ObservableBuffer[player]) =>{
       var i = 0;

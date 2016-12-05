@@ -30,6 +30,7 @@ class serverActor extends Actor with RoomObserver {
       println("ADDED PLAYER " + playerName);
       println("ROOM : " + room);
       sender ! RegistrationSuccess(room)
+      println("hi")
     }
     case PlayerReady(room: Room) => {
       room.playerReady();

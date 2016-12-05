@@ -14,17 +14,15 @@ import scalafxml.core.NoDependencyResolver
 import scalafx.scene.{Scene,Parent}
 import clientApplication._
 import scalafx.scene.image.{ImageView,Image}
+import playerActor._
+import serverActor._
 
 @sfxml
 class startingWindowController(inputNameField: TextField,startingImage: ImageView){
   
-  import playerActor._
-  import serverActor._
-  
   val image = new Image(getClass.getResourceAsStream("starting.png"));
   startingImage.setImage(image)
   private var stage: Option[Stage] = None
-  
   
   def handleConnect(event: ActionEvent){
     val input = inputNameField.text.value
@@ -32,10 +30,7 @@ class startingWindowController(inputNameField: TextField,startingImage: ImageVie
     if(input != ""){
       //connect user to a game room when user enter a valid name
       implicit val timeout: Timeout = Timeout(30 seconds)
-      clientApplication.clientActor ? ConnectToServer foreach{
-        case RegistrationSuccess =>
-          Platform.runLater(clientApplication.replaceSceneContent("roomWindow.fxml"))
-      }
+      clientApplication.clientActor ? ConnectToServer
     }else{
       val alert = new Alert(Alert.AlertType.Error){
               initOwner(stage getOrElse(clientApplication.stage))
