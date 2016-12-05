@@ -1,47 +1,54 @@
 import akka.actor._;
 
-class serverActor extends Actor{
+class serverActor extends Actor with RoomObserver {
   import serverActor._;
   import playerActor._;
-  
-  var activeRoom:Room = null;
-  
-  def active : Receive = {
-    case Connect(playerName : String, ref : ActorRef) => {
-       sender ! RegistrationFail
+
+  var activeRoom: Room = null;
+
+  def active: Receive = {
+    case Connect(playerName: String, ref: ActorRef) => {
+      sender ! RegistrationFail
     }
     case RollDice => {
-       activeRoom.play;
-       for(p <- activeRoom.playerList){
-         p.ref ! Move()
-       }
-       activeRoom.currentTurnPlayer.ref ! PlayerTurn
-       
+      val result = activeRoom.play;
+      for (p <- activeRoom.playerList) {
+        p.ref ! DiceResult(result)
+        p.ref ! Move()
+      }
+      self ! AssignTurn
+    }
+    case AssignTurn =>{
+      activeRoom.currentTurnPlayer.ref ! PlayerTurn
     }
   }
   def receive = {
-    case Connect(playerName : String, ref : ActorRef) =>{
-       val room :Room = RoomHandler.getRoom()
-       room.addPlayer(player(playerName,ref))
-       
-       println("ADDED PLAYER "+playerName);
-       println("ROOM : "+room);
-       sender ! RegistrationSuccess(room)
+    case Connect(playerName: String, ref: ActorRef) => {
+      val room: Room = RoomHandler.getRoom(this)
+      room.addPlayer(player(playerName, ref))
+
+      println("ADDED PLAYER " + playerName);
+      println("ROOM : " + room);
+      sender ! RegistrationSuccess(room)
     }
-    case Ready(room : Room) => {
-      if(room.start){
-        for(p <- room.playerList){
+    case PlayerReady(room: Room) => {
+      room.playerReady();
+      if (room.start) {
+        for (p <- room.playerList) {
           p.ref ! StartGame
         }
+        activeRoom = room;
+        context.become(active);
+        println("Game starting ");
+        self!AssignTurn
       }
-      activeRoom = room;
-      context.become(active);
     }
   }
 }
 
-object serverActor{
-  case class Connect(playerName : String, ref : ActorRef)
-  case class Ready(room : Room);
-  case class RollDice(playerId : Int);
+object serverActor {
+  case class Connect(playerName: String, ref: ActorRef)
+  case class PlayerReady(room: Room);
+  case class RollDice(playerId: Int);
+  case object AssignTurn
 }
