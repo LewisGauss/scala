@@ -1,10 +1,23 @@
 [0m[[0mdebug[0m] [0mjavaOptions: List()[0m
 [0m[[0minfo[0m] [0mRunning clientApplication [0m
-[0m[[0minfo[0m] [0m[INFO] [12/05/2016 21:57:28.656] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
-[0m[[0minfo[0m] [0m[INFO] [12/05/2016 21:57:28.855] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:16550][0m
-[0m[[0minfo[0m] [0m[INFO] [12/05/2016 21:57:28.858] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:16550][0m
+[0m[[0minfo[0m] [0m[INFO] [12/05/2016 23:25:38.231] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [12/05/2016 23:25:38.429] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:17648][0m
+[0m[[0minfo[0m] [0m[INFO] [12/05/2016 23:25:38.431] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:17648][0m
 [0m[[0minfo[0m] [0mattempt connect[0m
-[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/05/2016 21:57:30.650] [SnakeAndLadder-akka.remote.default-remote-dispatcher-14] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$Connect] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/05/2016 23:25:41.725] [SnakeAndLadder-akka.remote.default-remote-dispatcher-8] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$Connect] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
 [0m[[0minfo[0m] [0mPlayer list received [0m
 [0m[[0minfo[0m] [0m---------------------------------[0m
 [0m[[0minfo[0m] [0mPlayer 0 : john[0m
+[0m[[0minfo[0m] [0mi am ready for this[0m
+[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/05/2016 23:25:41.895] [SnakeAndLadder-akka.remote.default-remote-dispatcher-8] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$PlayerReady] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0mPlayer list received [0m
+[0m[[0minfo[0m] [0m---------------------------------[0m
+[0m[[0minfo[0m] [0mPlayer 0 : john[0m
+[0m[[0minfo[0m] [0mPlayer list received [0m
+[0m[[0minfo[0m] [0m---------------------------------[0m
+[0m[[0minfo[0m] [0mPlayer 1 : john[0m
+[0m[[0minfo[0m] [0mSTART GAME[0m
+[0m[[0minfo[0m] [0m[INFO] [12/05/2016 23:26:39.261] [SnakeAndLadder-akka.remote.default-remote-dispatcher-8] [akka.tcp://SnakeAndLadder@127.0.0.1:17648/system/remoting-terminator] Shutting down remote daemon.[0m
+[0m[[0minfo[0m] [0m[INFO] [12/05/2016 23:26:39.265] [SnakeAndLadder-akka.remote.default-remote-dispatcher-8] [akka.tcp://SnakeAndLadder@127.0.0.1:17648/system/remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports.[0m
+[0m[[0minfo[0m] [0m[INFO] [12/05/2016 23:26:39.305] [SnakeAndLadder-akka.actor.default-dispatcher-6] [akka.remote.Remoting] Remoting shut down[0m
+[0m[[0minfo[0m] [0m[INFO] [12/05/2016 23:26:39.307] [SnakeAndLadder-akka.remote.default-remote-dispatcher-7] [akka.tcp://SnakeAndLadder@127.0.0.1:17648/system/remoting-terminator] Remoting shut down.[0m

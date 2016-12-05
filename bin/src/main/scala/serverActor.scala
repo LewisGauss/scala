@@ -14,7 +14,7 @@ class serverActor extends Actor with RoomObserver {
       val result = activeRoom.play;
       for (p <- activeRoom.playerList) {
         p.ref ! DiceResult(result)
-        p.ref ! Move()
+        p.ref ! Move(activeRoom)
       }
       self ! AssignTurn
     }
@@ -33,6 +33,7 @@ class serverActor extends Actor with RoomObserver {
       println("hi")
     }
     case PlayerReady(room: Room) => {
+      println("ready received");
       room.playerReady();
       if (room.start) {
         for (p <- room.playerList) {
@@ -42,6 +43,8 @@ class serverActor extends Actor with RoomObserver {
         context.become(active);
         println("Game starting ");
         self!AssignTurn
+      }else{
+        println("WAITING");
       }
     }
   }
