@@ -1,8 +1,8 @@
-import scalafx.collections.ObservableBuffer;
+import scala.collection.mutable.ArrayBuffer;
 import java.util.Observable;
 
-class Room extends Observable{
-  var playerList : ObservableBuffer[player] = new ObservableBuffer[player]();
+class Room extends Observable  with Serializable{
+  var playerList : ArrayBuffer[player] =  ArrayBuffer[player]();
   var turnCounter = 0;
   var playersReady = 0;
   
@@ -25,7 +25,7 @@ class Room extends Observable{
   }
   
   def currentTurnPlayer : player = {
-    return playerList.get(turnCounter % playerList.size)
+    return playerList(turnCounter % playerList.size)
   }
   
   def play:Int = {

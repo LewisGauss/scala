@@ -2,14 +2,79 @@
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomObserver.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomObserver.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomObserver.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomObserver.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Including C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala by C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomObserver.scala[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1bc5240, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:C:\Users\Mint\.ivy2\cache\org.scalamacros\paradise_2.11.8\jars\paradise_2.11.8-2.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files (x86)\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_60\classes;C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes;C:\Users\Mint\Desktop\sbt\bin\null\jre\lib\ext\jfxrt.jar;C:\Users\Mint\.ivy2\cache\org.scalafx\scalafx_2.11\jars\scalafx_2.11-8.0.40-R8.jar;C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar;C:\Users\Mint\.ivy2\cache\org.scalafx\scalafxml-core-sfx8_2.11\jars\scalafxml-core-sfx8_2.11-0.2.2.jar;C:\Users\Mint\.ivy2\cache\org.scalafx\scalafxml-core-macros-sfx8_2.11\jars\scalafxml-core-macros-sfx8_2.11-0.2.2.jar;C:\Users\Mint\.ivy2\cache\com.github.nscala-time\nscala-time_2.11\jars\nscala-time_2.11-2.12.0.jar;C:\Users\Mint\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.3.jar;C:\Users\Mint\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.2.jar;C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.14.jar;C:\Users\Mint\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\Mint\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.4.14.jar;C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.14.jar;C:\Users\Mint\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\Mint\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\Mint\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-protobuf_2.11\jars\akka-protobuf_2.11-2.4.14.jar;C:\Users\Mint\.ivy2\cache\io.netty\netty\bundles\netty-3.10.6.Final.jar;C:\Users\Mint\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar;C:\Users\Mint\.ivy2\cache\io.aeron\aeron-driver\jars\aeron-driver-1.0.4.jar;C:\Users\Mint\.ivy2\cache\io.aeron\aeron-client\jars\aeron-client-1.0.4.jar;C:\Users\Mint\.ivy2\cache\org.agrona\Agrona\jars\Agrona-0.9.0.jar[0m
+[0m[[33mwarn[0m] [0mthere was one feature warning; re-run with -feature for details[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 2.264501777 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	unapply, compose, andThen, <init>, apply, PlayerList, copy, playerList, copy$default$1.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala: Set(<init>, apply)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of C:\Users\Mint\Desktop\sbt\bin\src\main\scala\startingWindowController.scala: Set(<init>)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala: Set(<init>, apply, playerList)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverApplicationTest.scala: Set(<init>, apply)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala: Set(<init>, apply)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomObserver.scala: Set(PlayerList, playerList)[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\startingWindowController.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverApplicationTest.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomObserver.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\startingWindowController.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverApplicationTest.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomObserver.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Including C:\Users\Mint\Desktop\sbt\bin\src\main\scala\startingWindowController.scala by C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala by C:\Users\Mint\Desktop\sbt\bin\src\main\scala\startingWindowController.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala by C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverApplicationTest.scala by C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala by C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomObserver.scala by C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Including C:\Users\Mint\Desktop\sbt\bin\src\main\scala\roomWindowController.scala by C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\startingWindowController.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverApplicationTest.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\playerActor.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\startingWindowController.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverActor.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\serverApplicationTest.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\Application.scala, C:\Users\Mint\Desktop\sbt\bin\src\main\scala\RoomObserver.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 13 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 13 Scala sources to C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 29eb56, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:C:\Users\Mint\.ivy2\cache\org.scalamacros\paradise_2.11.8\jars\paradise_2.11.8-2.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files (x86)\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files (x86)\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files (x86)\Java\jre1.8.0_60\classes;C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes;C:\Users\Mint\Desktop\sbt\bin\null\jre\lib\ext\jfxrt.jar;C:\Users\Mint\.ivy2\cache\org.scalafx\scalafx_2.11\jars\scalafx_2.11-8.0.40-R8.jar;C:\Users\Mint\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar;C:\Users\Mint\.ivy2\cache\org.scalafx\scalafxml-core-sfx8_2.11\jars\scalafxml-core-sfx8_2.11-0.2.2.jar;C:\Users\Mint\.ivy2\cache\org.scalafx\scalafxml-core-macros-sfx8_2.11\jars\scalafxml-core-macros-sfx8_2.11-0.2.2.jar;C:\Users\Mint\.ivy2\cache\com.github.nscala-time\nscala-time_2.11\jars\nscala-time_2.11-2.12.0.jar;C:\Users\Mint\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.3.jar;C:\Users\Mint\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.2.jar;C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.14.jar;C:\Users\Mint\.ivy2\cache\com.typesafe\config\bundles\config-1.3.0.jar;C:\Users\Mint\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\bundles\scala-java8-compat_2.11-0.7.0.jar;C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\jars\akka-remote_2.11-2.4.14.jar;C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.14.jar;C:\Users\Mint\.ivy2\cache\org.reactivestreams\reactive-streams\jars\reactive-streams-1.0.0.jar;C:\Users\Mint\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\Mint\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\Mint\.ivy2\cache\com.typesafe.akka\akka-protobuf_2.11\jars\akka-protobuf_2.11-2.4.14.jar;C:\Users\Mint\.ivy2\cache\io.netty\netty\bundles\netty-3.10.6.Final.jar;C:\Users\Mint\.ivy2\cache\org.uncommons.maths\uncommons-maths\jars\uncommons-maths-1.2.2a.jar;C:\Users\Mint\.ivy2\cache\io.aeron\aeron-driver\jars\aeron-driver-1.0.4.jar;C:\Users\Mint\.ivy2\cache\io.aeron\aeron-client\jars\aeron-client-1.0.4.jar;C:\Users\Mint\.ivy2\cache\org.agrona\Agrona\jars\Agrona-0.9.0.jar[0m
+[0m[[33mwarn[0m] [0mC:\Users\Mint\Desktop\sbt\bin\src\main\scala\clientApplication.scala:70: enclosing method replaceSceneContent has result type Unit: return value discarded[0m
+[0m[[33mwarn[0m] [0m    return page;[0m
+[0m[[33mwarn[0m] [0m    ^[0m
+[0m[[33mwarn[0m] [0mthere was one feature warning; re-run with -feature for details[0m
+[0m[[33mwarn[0m] [0mtwo warnings found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 5.647517711 s[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

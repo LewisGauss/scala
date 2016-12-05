@@ -1,4 +1,5 @@
 import scalafx.application.JFXApp
+import scalafx.stage.Stage;
 import scalafx.application.JFXApp.PrimaryStage
 import scalafx.scene.{Scene,Group}
 import scalafx.scene.control.ListView
@@ -11,7 +12,9 @@ import akka.actor._
 import playerActor._
   
 object clientApplication extends JFXApp {
-
+ 
+  var currentRoom : Room = null;
+  var gameBoardController : GameboardController = null;
   //load fxml with fxml loader
   val loader = new FXMLLoader(null, NoDependencyResolver)
   
@@ -49,6 +52,7 @@ object clientApplication extends JFXApp {
     }
   }
   
+  
   def replaceSceneContent(fxml: String){
    
    val loader = new FXMLLoader(null, NoDependencyResolver)
@@ -65,5 +69,12 @@ object clientApplication extends JFXApp {
     }
     stage.sizeToScene();
     return page;
+  }
+  
+  def startGameBoard(){
+    val stage = new Stage()
+    gameBoardController = new GameboardController();
+    stage.setScene(gameBoardController.scene);
+    stage.show()
   }
 }

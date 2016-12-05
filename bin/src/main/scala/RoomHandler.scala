@@ -5,7 +5,7 @@ object RoomHandler {
    
    def getRoom(observer : Observer) : Room = {
      for( room <- rooms){
-       if(room.playerList.size() <= 4){
+       if(room.playerList.size <= 4){
          return room;
        }
      }

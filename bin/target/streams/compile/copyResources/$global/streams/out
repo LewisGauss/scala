@@ -1,6 +1,6 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(F:\scala-master\scala\bin\src\main\resources\application.conf,F:\scala-master\scala\bin\target\scala-2.11\classes\application.conf)[0m
-[0m[[0mdebug[0m] [0m	(F:\scala-master\scala\bin\src\main\resources\gameboard.gif,F:\scala-master\scala\bin\target\scala-2.11\classes\gameboard.gif)[0m
-[0m[[0mdebug[0m] [0m	(F:\scala-master\scala\bin\src\main\resources\roomWindow.fxml,F:\scala-master\scala\bin\target\scala-2.11\classes\roomWindow.fxml)[0m
-[0m[[0mdebug[0m] [0m	(F:\scala-master\scala\bin\src\main\resources\starting.png,F:\scala-master\scala\bin\target\scala-2.11\classes\starting.png)[0m
-[0m[[0mdebug[0m] [0m	(F:\scala-master\scala\bin\src\main\resources\startingWindow.fxml,F:\scala-master\scala\bin\target\scala-2.11\classes\startingWindow.fxml)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Mint\Desktop\sbt\bin\src\main\resources\application.conf,C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Mint\Desktop\sbt\bin\src\main\resources\gameboard.gif,C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\gameboard.gif)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Mint\Desktop\sbt\bin\src\main\resources\roomWindow.fxml,C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\roomWindow.fxml)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Mint\Desktop\sbt\bin\src\main\resources\starting.png,C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\starting.png)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Mint\Desktop\sbt\bin\src\main\resources\startingWindow.fxml,C:\Users\Mint\Desktop\sbt\bin\target\scala-2.11\classes\startingWindow.fxml)[0m

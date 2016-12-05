@@ -29,8 +29,19 @@ class startingWindowController(inputNameField: TextField,startingImage: ImageVie
     input.trim
     if(input != ""){
       //connect user to a game room when user enter a valid name
+      println("attempt connect");
       implicit val timeout: Timeout = Timeout(30 seconds)
-      clientApplication.clientActor ? ConnectToServer
+      clientApplication.clientActor ? ConnectToServer foreach{
+        case RegistrationSuccess(room : Room) => {
+          Platform.runLater({
+            clientApplication.currentRoom = room;
+            
+            clientApplication.clientActor ! Ready
+          });
+          
+            
+        }
+      }
     }else{
       val alert = new Alert(Alert.AlertType.Error){
               initOwner(stage getOrElse(clientApplication.stage))
