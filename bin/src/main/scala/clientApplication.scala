@@ -42,7 +42,8 @@ object clientApplication extends JFXApp {
   //Actor System
   val system = ActorSystem("SnakeAndLadder")
   //val clientActor = system.actorOf(Props[playerActor]);
-  val clientActor = system.actorOf(Props(new playerActor(startingWindowController)), "clientActor")
+  val sa = system.actorOf(Props[serverActor]);
+  val clientActor = system.actorOf(Props(new playerActor(startingWindowController,sa,"john")), "clientActor")
   
 //  clientActor ! StartGame;
 //  println("SHOUDL BE TURN");

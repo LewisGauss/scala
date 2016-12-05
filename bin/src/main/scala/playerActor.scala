@@ -6,9 +6,9 @@ import akka.util.Timeout
 import scala.concurrent.duration._
 
 //class playerActor( server : ActorRef,name : String) extends Actor{
-class playerActor(val control: startingWindowController#Controller) extends Actor{
-  import playerActor._;
-  import serverActor._;
+class playerActor(val control: startingWindowController#Controller, server: ActorRef, name: String) extends Actor{
+  import playerActor._
+  import serverActor._
   
   val serverActor = context.actorSelection("akka.tcp://SnakeAndLadder@127.0.0.1:5150/user/serverActor")
   var isReady : Boolean = false;
@@ -23,7 +23,7 @@ class playerActor(val control: startingWindowController#Controller) extends Acto
     }
     case Play => {
       if(myTurn){
-        //serverActor ! RollDice
+        serverActor ! RollDice
       }else{
         println("Not my turn")
       }
@@ -39,14 +39,14 @@ class playerActor(val control: startingWindowController#Controller) extends Acto
   }
   def receive = {
     case ConnectToServer =>{
-       //serverActor ! Connect(name, self)
+       serverActor ! Connect(name, self)
     }
     case StartGame => {
       println("START GAME");
       context.become(inGame)
     }
     case Ready => {
-      //serverActor ! PlayerReady(currentRoom)
+      serverActor ! PlayerReady(currentRoom)
     }
     
     case RegistrationSuccess(room : Room) => {

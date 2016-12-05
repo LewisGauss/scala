@@ -4,6 +4,7 @@ import playerActor._;
 import serverActor._;
 
 object serverApplicationTest extends App{
+  
    val system = ActorSystem("SNAKEGAME");
    val serverActor = system.actorOf(Props[serverActor]);
    
