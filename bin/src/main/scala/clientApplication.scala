@@ -10,11 +10,13 @@ import scalafx.application.Platform
 import scala.concurrent.ExecutionContext.Implicits.global
 import akka.actor._
 import playerActor._
+import scala.collection.mutable.ArrayBuffer
   
 object clientApplication extends JFXApp {
  
   var currentRoom : Room = null;
   var gameBoardController : GameboardController = null;
+  var roomWindowController:roomWindowController#Controller = null;
   //load fxml with fxml loader
   val loader = new FXMLLoader(null, NoDependencyResolver)
   
@@ -68,7 +70,8 @@ object clientApplication extends JFXApp {
        stage.getScene().setRoot(page);
     }
     stage.sizeToScene();
-    return page;
+    roomWindowController = loader.getController[roomWindowController#Controller]
+    //return page;
   }
   
   def startGameBoard(){
@@ -76,5 +79,11 @@ object clientApplication extends JFXApp {
     gameBoardController = new GameboardController();
     stage.setScene(gameBoardController.scene);
     stage.show()
+  }
+  
+  def updatePlayerList( playerList : ArrayBuffer[player]){
+    this.currentRoom.playerList = playerList;
+    roomWindowController.playerJoined()
+    
   }
 }

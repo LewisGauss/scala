@@ -10,7 +10,7 @@ import akka.util.Timeout
 import scalafx.application.Platform
 
 //class playerActor( server : ActorRef,name : String) extends Actor{
-class playerActor(val control: startingWindowController#Controller, sa: ActorRef, name: String) extends Actor {
+class playerActor(val control: startingWindowController#Controller, sa: ActorRef, aname: String) extends Actor {
   import playerActor._
 
   val serverActor = context.actorSelection("akka.tcp://SnakeGame@192.168.0.172:1305/user/serverActor")
@@ -23,7 +23,7 @@ class playerActor(val control: startingWindowController#Controller, sa: ActorRef
     case PlayerTurn => {
       myTurn = true;
       Platform.runLater({
-      clientApplication.gameBoardController.myTurn();
+        clientApplication.gameBoardController.myTurn();
       });
     }
     case Play => {
@@ -33,19 +33,19 @@ class playerActor(val control: startingWindowController#Controller, sa: ActorRef
         println("Not my turn")
       }
     }
-    case Move(room : Room) => {
+    case Move(room: Room) => {
       Platform.runLater({
         clientApplication.currentRoom = room;
         clientApplication.gameBoardController.updateUI()
       });
-     
+
     }
     case DiceResult(result: Int) => {
       println("dice result :" + result);
     }
   }
   def receive = {
-    case ConnectToServer => {
+    case ConnectToServer(name: String) => {
       implicit val timeout = Timeout(5 seconds)
       serverActor ? Connect(name, self) pipeTo sender
     }
@@ -68,8 +68,15 @@ class playerActor(val control: startingWindowController#Controller, sa: ActorRef
       //clientApplication.replaceSceneContent("roomWindow.fxml")
     }
     case PlayerList(playerList: ArrayBuffer[player]) => {
-      clientApplication.currentRoom.playerList = playerList
-      println("Updated list");
+      Platform.runLater({
+        clientApplication.updatePlayerList(playerList);
+
+      });
+
+    }
+    case RegistrationFail => {
+      println("GAME STARTED");
+
     }
   }
 }
@@ -77,12 +84,12 @@ class playerActor(val control: startingWindowController#Controller, sa: ActorRef
 object playerActor {
   case object Ready
   case class DiceResult(result: Int)
-  case object ConnectToServer
+  case class ConnectToServer(name: String)
   case object StartGame
   case object PlayerTurn
   case class RegistrationSuccess(room: Room)
   case object RegistrationFail
-  case class Move(room : Room)
+  case class Move(room: Room)
   case object Play
   case class PlayerList(playerList: ArrayBuffer[player])
 
