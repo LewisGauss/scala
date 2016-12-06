@@ -82,7 +82,9 @@ object clientApplication extends JFXApp {
   }
   
   def updatePlayerList( playerList : ArrayBuffer[player]){
-    this.currentRoom.playerList = playerList;
+    if(this.currentRoom != null){
+      this.currentRoom.playerList = playerList;
+    }
     roomWindowController.playerJoined()
     
   }

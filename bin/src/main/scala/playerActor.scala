@@ -62,8 +62,10 @@ class playerActor(val control: startingWindowController#Controller, sa: ActorRef
     }
 
     case RegistrationSuccess(room: Room) => {
+      Platform.runLater({
+        clientApplication.currentRoom = room
+      });
       this.currentRoom = room;
-      println("Registered \n ROOM : " + room)
 
       //clientApplication.replaceSceneContent("roomWindow.fxml")
     }
