@@ -1,15 +1,18 @@
 [0m[[0mdebug[0m] [0mjavaOptions: List()[0m
 [0m[[0minfo[0m] [0mRunning clientApplication [0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 10:29:14.117] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 10:29:14.306] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:26014][0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 10:29:14.308] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:26014][0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 17:51:50.131] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 17:51:50.323] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:33840][0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 17:51:50.325] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:33840][0m
 [0m[[0minfo[0m] [0mattempt connect[0m
-[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 10:29:18.066] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$Connect] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0mRECEIVED something[0m
+[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 17:52:05.572] [SnakeAndLadder-akka.remote.default-remote-dispatcher-8] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$Connect] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0mattempt connect[0m
+[0m[[0minfo[0m] [0mRECEIVED something[0m
 [0m[[31merror[0m] [0mException in thread "JavaFX Application Thread" java.lang.NullPointerException[0m
 [0m[[31merror[0m] [0m	at clientApplication$.updatePlayerList(clientApplication.scala:88)[0m
-[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$5.apply$mcV$sp(playerActor.scala:74)[0m
-[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$5.apply(playerActor.scala:74)[0m
-[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$5.apply(playerActor.scala:74)[0m
+[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$6.apply$mcV$sp(playerActor.scala:89)[0m
+[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$6.apply(playerActor.scala:89)[0m
+[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$6.apply(playerActor.scala:89)[0m
 [0m[[31merror[0m] [0m	at scalafx.application.Platform$$anon$1.run(Platform.scala:71)[0m
 [0m[[31merror[0m] [0m	at com.sun.javafx.application.PlatformImpl.lambda$null$174(Unknown Source)[0m
 [0m[[31merror[0m] [0m	at java.security.AccessController.doPrivileged(Native Method)[0m
@@ -18,9 +21,39 @@
 [0m[[31merror[0m] [0m	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)[0m
 [0m[[31merror[0m] [0m	at com.sun.glass.ui.win.WinApplication.lambda$null$149(Unknown Source)[0m
 [0m[[31merror[0m] [0m	at java.lang.Thread.run(Unknown Source)[0m
-[0m[[0minfo[0m] [0mRoom@1dd9dd9[0m
-[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 10:29:18.449] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$PReady] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 10:30:04.542] [SnakeAndLadder-akka.remote.default-remote-dispatcher-13] [akka.tcp://SnakeAndLadder@127.0.0.1:26014/system/remoting-terminator] Shutting down remote daemon.[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 10:30:04.544] [SnakeAndLadder-akka.remote.default-remote-dispatcher-13] [akka.tcp://SnakeAndLadder@127.0.0.1:26014/system/remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports.[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 10:30:04.588] [SnakeAndLadder-akka.actor.default-dispatcher-18] [akka.remote.Remoting] Remoting shut down[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 10:30:04.589] [SnakeAndLadder-akka.remote.default-remote-dispatcher-13] [akka.tcp://SnakeAndLadder@127.0.0.1:26014/system/remoting-terminator] Remoting shut down.[0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 17:52:11.788] [SnakeAndLadder-akka.actor.default-dispatcher-6] [akka://SnakeAndLadder/temp/$a] Message [playerActor$RegistrationSuccess] from Actor[akka.tcp://SnakeGame@192.168.0.172:1305/user/serverActor#483753805] to Actor[akka://SnakeAndLadder/temp/$a] was not delivered. [1] dead letters encountered. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'.[0m
+[0m[[31merror[0m] [0mException in thread "JavaFX Application Thread" java.lang.NullPointerException[0m
+[0m[[31merror[0m] [0m	at clientApplication$.updatePlayerList(clientApplication.scala:88)[0m
+[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$6.apply$mcV$sp(playerActor.scala:89)[0m
+[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$6.apply(playerActor.scala:89)[0m
+[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$6.apply(playerActor.scala:89)[0m
+[0m[[31merror[0m] [0m	at scalafx.application.Platform$$anon$1.run(Platform.scala:71)[0m
+[0m[[31merror[0m] [0m	at com.sun.javafx.application.PlatformImpl.lambda$null$174(Unknown Source)[0m
+[0m[[31merror[0m] [0m	at java.security.AccessController.doPrivileged(Native Method)[0m
+[0m[[31merror[0m] [0m	at com.sun.javafx.application.PlatformImpl.lambda$runLater$175(Unknown Source)[0m
+[0m[[31merror[0m] [0m	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source)[0m
+[0m[[31merror[0m] [0m	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)[0m
+[0m[[31merror[0m] [0m	at com.sun.glass.ui.win.WinApplication.lambda$null$149(Unknown Source)[0m
+[0m[[31merror[0m] [0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[31merror[0m] [0mException in thread "JavaFX Application Thread" java.lang.NullPointerException[0m
+[0m[[31merror[0m] [0m	at clientApplication$.updatePlayerList(clientApplication.scala:88)[0m
+[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$6.apply$mcV$sp(playerActor.scala:89)[0m
+[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$6.apply(playerActor.scala:89)[0m
+[0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$6.apply(playerActor.scala:89)[0m
+[0m[[31merror[0m] [0m	at scalafx.application.Platform$$anon$1.run(Platform.scala:71)[0m
+[0m[[31merror[0m] [0m	at com.sun.javafx.application.PlatformImpl.lambda$null$174(Unknown Source)[0m
+[0m[[31merror[0m] [0m	at java.security.AccessController.doPrivileged(Native Method)[0m
+[0m[[31merror[0m] [0m	at com.sun.javafx.application.PlatformImpl.lambda$runLater$175(Unknown Source)[0m
+[0m[[31merror[0m] [0m	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source)[0m
+[0m[[31merror[0m] [0m	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)[0m
+[0m[[31merror[0m] [0m	at com.sun.glass.ui.win.WinApplication.lambda$null$149(Unknown Source)[0m
+[0m[[31merror[0m] [0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0minfo[0m] [0mRoom@a60033[0m
+[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 17:52:15.381] [SnakeAndLadder-akka.remote.default-remote-dispatcher-8] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$PReady] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0mRoom@a60033[0m
+[0m[[0minfo[0m] [0mSTART GAME[0m
+[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 17:52:18.213] [SnakeAndLadder-akka.remote.default-remote-dispatcher-7] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$RollDice] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0mRECEIVED something[0m
+[0m[[0minfo[0m] [0mdice result :3[0m
+[0m[[0minfo[0m] [0mdice result :3[0m
+[0m[[0minfo[0m] [0mRECEIVED something[0m

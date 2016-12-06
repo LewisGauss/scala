@@ -20,23 +20,33 @@ import scalafx.event.EventHandler;
 import scala.collection.mutable.HashMap
 import playerActor._;
 
+import scalafx.scene.control.Alert
 class GameboardController {
   val rollButton = new Button("Roll Dice")
   rollButton.disable = true
   rollButton.layoutX = 650
   rollButton.layoutY = 500
-
+  val color = Array(
+    Blue,
+    Green,
+    Orange,
+    Pink);
   def getCoordinates(position: Int): Coor = {
-    var x : Double = 0;
-    if( Math.floor(position/10) % 2 == 0){
-       x = ((position - 1) % 10) * 60
-    }else{
-       x = 560 - (((position - 1) % 11) * 60)
+    
+    var x: Double = 0;
+    if (position % 10 == 0) {
+        x = if(((position /10) % 2) == 0) 0 else 540
+    } else {
+      if (Math.floor(position / 10) % 2 == 0) {
+        x = ((position - 1) % 10) * 60
+      } else {
+        x = 560 - (((position - 1) % 10) * 60)
+      }
     }
     val y = 560 - (Math.floor((position - 1) / 10) * 60)
     return new Coor(x, y)
   }
-  
+
   var playersMap = new HashMap[player, Rectangle]();
 
   var counter = 1;
@@ -62,21 +72,23 @@ class GameboardController {
     mainPane.getChildren().add(imv)
     mainPane.getChildren().add(rollButton)
     mainPane.getChildren().add(diceNum)
+    var i = 0
     for (p <- clientApplication.currentRoom.playerList) {
       val playerLabel = new Label(p.name);
       val rec1 = new Rectangle {
         width = 30
         height = 30
-        fill = LightGreen
+        fill = color(i)
         x = 12
         y = 560
       }
       playerLabel.layoutX = 650;
       playerLabel.layoutY = labelY
+      playerLabel.setTextFill(color(i))
+      i += 1
       playersMap.put(p, rec1);
       labelY += 30;
       mainPane.getChildren().add(playerLabel);
-
 
       mainPane.getChildren().add(rec1)
     }
@@ -84,9 +96,10 @@ class GameboardController {
     //content = List(imv, rollButton, diceNum, player1, player2, player3, player4)
 
     rollButton.onMouseClicked = (e: Event) => {
-      println("Clicked")
+
       clientApplication.clientActor ! Play
       rollButton.disable = true;
+      
     }
   }
 
@@ -98,8 +111,18 @@ class GameboardController {
     for (p <- clientApplication.currentRoom.playerList) {
       val pos = getCoordinates(p.position)
       val rec = playersMap(p);
-      rec.relocate(pos.x,pos.y)
+      rec.relocate(pos.x, pos.y)
     }
+  }
+  
+  def Win(name : String){
+    
+    val alert = new Alert(Alert.AlertType.Error) {
+          initOwner( (clientApplication.stage))
+          title = "End"
+          headerText = "End"
+          contentText = name + " has won the game"
+        }.showAndWait()
   }
 
 }

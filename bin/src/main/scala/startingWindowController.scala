@@ -33,13 +33,12 @@ class startingWindowController(inputNameField: TextField,startingImage: ImageVie
       implicit val timeout: Timeout = Timeout(30 seconds)
       
       clientApplication.clientActor ? ConnectToServer(input) foreach{
-        case RegistrationSuccess(room : Room) => {
+        case RegistrationSuccess(room : Room, playerID : Int) => {
           Platform.runLater({
-            clientApplication.clientActor ! RegistrationSuccess(room)
+            clientApplication.clientActor ! RegistrationSuccess(room,playerID)
             clientApplication.currentRoom = room;
             clientApplication.replaceSceneContent("roomWindow.fxml");
                 
-            clientApplication.clientActor ! Ready
           });
           
             

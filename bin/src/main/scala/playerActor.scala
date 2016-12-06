@@ -8,6 +8,7 @@ import serverActor._
 import akka.pattern.ask
 import akka.util.Timeout
 import scalafx.application.Platform
+import scala.util.Failure;
 
 //class playerActor( server : ActorRef,name : String) extends Actor{
 class playerActor(val control: startingWindowController#Controller, sa: ActorRef, aname: String) extends Actor {
@@ -17,9 +18,14 @@ class playerActor(val control: startingWindowController#Controller, sa: ActorRef
   var isReady: Boolean = false;
   var myTurn: Boolean = false;
   var currentRoom: Room = null;
-  val playerID: player = null;
+  var playerID: Int = 0;
 
   def inGame: Receive = {
+    case Win(name: String) => {
+      Platform.runLater({
+        clientApplication.gameBoardController.Win(name)
+      });
+    }
     case PlayerTurn => {
       myTurn = true;
       Platform.runLater({
@@ -28,7 +34,15 @@ class playerActor(val control: startingWindowController#Controller, sa: ActorRef
     }
     case Play => {
       if (myTurn) {
-        serverActor ! RollDice
+        implicit val timeout = Timeout(10 seconds)
+        serverActor ? RollDice(playerID) foreach{
+          case x:String => {}
+          case Failure =>{
+            Platform.runLater({
+              clientApplication.gameBoardController.rollButton.disable = false
+            });
+          }
+        }
       } else {
         println("Not my turn")
       }
@@ -61,10 +75,11 @@ class playerActor(val control: startingWindowController#Controller, sa: ActorRef
       serverActor ! PReady(clientApplication.currentRoom)
     }
 
-    case RegistrationSuccess(room: Room) => {
+    case RegistrationSuccess(room: Room,id : Int) => {
       Platform.runLater({
         clientApplication.currentRoom = room
       });
+      this.playerID = id;
       this.currentRoom = room;
 
       //clientApplication.replaceSceneContent("roomWindow.fxml")
@@ -89,10 +104,10 @@ object playerActor {
   case class ConnectToServer(name: String)
   case object StartGame
   case object PlayerTurn
-  case class RegistrationSuccess(room: Room)
+  case class RegistrationSuccess(room: Room,playerID : Int)
   case object RegistrationFail
   case class Move(room: Room)
   case object Play
   case class PlayerList(playerList: ArrayBuffer[player])
-
+  case class Win(name: String)
 }
