@@ -30,10 +30,24 @@ class serverActor extends Actor with RoomObserver {
       println("ADDED PLAYER " + playerName);
       println("ROOM : " + room);
       sender ! RegistrationSuccess(room)
-      println("hi")
+      //test start
+      /*
+      if(room.playerList.size ==2){
+        println("full");
+         for (p <- room.playerList) {
+          p.ref ! StartGame
+        }
+        activeRoom = room;
+        context.become(active);
+        println("Game starting ");
+        self!AssignTurn
+      }
+      * */
+      
+      //test end
     }
-    case PlayerReady(room: Room) => {
-      println("ready received");
+    case PReady(room: Room) => {
+      println("RECEIVED READY");
       room.playerReady();
       if (room.start) {
         for (p <- room.playerList) {
@@ -44,15 +58,19 @@ class serverActor extends Actor with RoomObserver {
         println("Game starting ");
         self!AssignTurn
       }else{
-        println("WAITING");
+        sender ! PlayerList(room.playerList);
       }
+    }
+    
+    case _=>{
+      println("RECEIVED something");
     }
   }
 }
 
 object serverActor {
   case class Connect(playerName: String, ref: ActorRef)
-  case class PlayerReady(room: Room);
+  case class PReady(room: Room);
   case class RollDice(playerId: Int);
   case object AssignTurn
 }
