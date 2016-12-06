@@ -57,8 +57,8 @@ class playerActor(val control: startingWindowController#Controller, sa: ActorRef
       });
     }
     case Ready => {
-     
-      serverActor ! PReady(currentRoom)
+      println(clientApplication.currentRoom)
+      serverActor ! PReady(clientApplication.currentRoom)
     }
 
     case RegistrationSuccess(room: Room) => {

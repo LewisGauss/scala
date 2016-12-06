@@ -1,10 +1,10 @@
 [0m[[0mdebug[0m] [0mjavaOptions: List()[0m
 [0m[[0minfo[0m] [0mRunning clientApplication [0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 09:25:42.731] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 09:25:42.918] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:25025][0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 09:25:42.919] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:25025][0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 10:04:02.179] [JavaFX Application Thread] [akka.remote.Remoting] Starting remoting[0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 10:04:02.367] [JavaFX Application Thread] [akka.remote.Remoting] Remoting started; listening on addresses :[akka.tcp://SnakeAndLadder@127.0.0.1:25517][0m
+[0m[[0minfo[0m] [0m[INFO] [12/06/2016 10:04:02.369] [JavaFX Application Thread] [akka.remote.Remoting] Remoting now listens on addresses: [akka.tcp://SnakeAndLadder@127.0.0.1:25517][0m
 [0m[[0minfo[0m] [0mattempt connect[0m
-[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 09:25:49.446] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$Connect] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 10:04:12.047] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$Connect] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
 [0m[[31merror[0m] [0mException in thread "JavaFX Application Thread" java.lang.NullPointerException[0m
 [0m[[31merror[0m] [0m	at clientApplication$.updatePlayerList(clientApplication.scala:88)[0m
 [0m[[31merror[0m] [0m	at playerActor$$anonfun$receive$1$$anonfun$applyOrElse$5.apply$mcV$sp(playerActor.scala:74)[0m
@@ -18,18 +18,38 @@
 [0m[[31merror[0m] [0m	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)[0m
 [0m[[31merror[0m] [0m	at com.sun.glass.ui.win.WinApplication.lambda$null$149(Unknown Source)[0m
 [0m[[31merror[0m] [0m	at java.lang.Thread.run(Unknown Source)[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 09:26:36.781] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$PlayerReady] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0mi am ready for this[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 09:31:42.727] [SnakeAndLadder-akka.remote.default-remote-dispatcher-6] [akka.tcp://SnakeAndLadder@127.0.0.1:25025/system/remoting-terminator] Shutting down remote daemon.[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 09:31:42.730] [SnakeAndLadder-akka.remote.default-remote-dispatcher-6] [akka.tcp://SnakeAndLadder@127.0.0.1:25025/system/remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports.[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 09:31:42.792] [SnakeAndLadder-akka.actor.default-dispatcher-15] [akka.remote.Remoting] Remoting shut down[0m
-[0m[[0minfo[0m] [0m[INFO] [12/06/2016 09:31:42.793] [SnakeAndLadder-akka.remote.default-remote-dispatcher-6] [akka.tcp://SnakeAndLadder@127.0.0.1:25025/system/remoting-terminator] Remoting shut down.[0m
+[0m[[0minfo[0m] [0mRoom@31c82f[0m
+[0m[[0minfo[0m] [0m[WARN] [SECURITY][12/06/2016 10:04:12.424] [SnakeAndLadder-akka.remote.default-remote-dispatcher-5] [akka.serialization.Serialization(akka://SnakeAndLadder)] Using the default Java serializer for class [serverActor$PReady] which is not recommended because of performance implications. Use another serializer or disable this warning using the setting 'akka.actor.warn-about-java-serializer-usage'[0m
+[0m[[0minfo[0m] [0mRoom@31c82f[0m
+[0m[[0minfo[0m] [0mRoom@31c82f[0m
+[0m[[0minfo[0m] [0mRoom@31c82f[0m
+[0m[[0minfo[0m] [0mRoom@31c82f[0m
+[0m[[0minfo[0m] [0mRoom@31c82f[0m
+[0m[[0minfo[0m] [0mRoom@31c82f[0m
+java.lang.RuntimeException: Nonzero exit code returned from runner: 1
+	at scala.sys.package$.error(package.scala:27)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:2081)
+	at sbt.BuildCommon$$anonfun$toError$1.apply(Defaults.scala:2081)
+	at scala.Option.foreach(Option.scala:236)
+	at sbt.BuildCommon$class.toError(Defaults.scala:2081)
+	at sbt.Defaults$.toError(Defaults.scala:39)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$38$$anonfun$apply$39.apply(Defaults.scala:750)
+	at sbt.Defaults$$anonfun$runTask$1$$anonfun$apply$38$$anonfun$apply$39.apply(Defaults.scala:748)
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
+	at sbt.std.Transform$$anon$4.work(System.scala:63)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)
+	at sbt.Execute.work(Execute.scala:237)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+[0m[[31merror[0m] [0m(compile:[31mrun[0m) Nonzero exit code returned from runner: 1[0m
