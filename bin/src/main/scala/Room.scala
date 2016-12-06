@@ -2,7 +2,8 @@ import scala.collection.mutable.ArrayBuffer;
 import java.util.Observable;
 import scala.collection.mutable.HashMap
 
-class Room extends Observable  with Serializable{
+class Room(val id : Int) extends Observable  with Serializable{
+  
   var playerList : ArrayBuffer[player] =  ArrayBuffer[player]();
   var turnCounter = 0;
   var playersReady = 0;
